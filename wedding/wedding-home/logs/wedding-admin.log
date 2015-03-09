@@ -1,0 +1,7 @@
+[INFO ][2015-01-08 15:09:22,284] - [Eon] loaded [], sites []
+[INFO ][2015-01-08 15:09:35,386] - [Eon] failed to get local cluster state for [#transport#-1][rkzhangdeMacBook-Pro.local][inet[/115.29.245.7:9300]], disconnecting...
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [][inet[/115.29.245.7:9300]][cluster/state] request_id [0] timed out after [5004ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:356)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)

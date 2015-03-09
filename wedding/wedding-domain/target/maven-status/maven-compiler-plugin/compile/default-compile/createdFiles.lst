@@ -1,0 +1,8 @@
+com/wedding/domain/pojo/DomainExample$Criterion.class
+com/wedding/domain/service/DomainServiceImpl.class
+com/wedding/domain/pojo/DomainExample.class
+com/wedding/domain/pojo/DomainExample$Criteria.class
+com/wedding/domain/dao/DomainDao.class
+com/wedding/domain/mapper/DomainMapper.class
+com/wedding/domain/pojo/DomainExample$GeneratedCriteria.class
+com/wedding/domain/pojo/Domain.class

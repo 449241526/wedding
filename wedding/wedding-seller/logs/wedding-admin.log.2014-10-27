@@ -1,0 +1,339 @@
+[INFO ][2014-10-27 13:21:54,678] - [Zeitgeist] loaded [], sites []
+[INFO ][2014-10-27 13:21:55,848] - [Zeitgeist] failed to get local cluster state for [#transport#-1][rkzhangdeMacBook-Pro.local][inet[/127.0.0.1:9300]], disconnecting...
+org.elasticsearch.transport.RemoteTransportException: [Jade Dragon][inet[/127.0.0.1:9300]][cluster/state]
+Caused by: java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 48
+	at org.elasticsearch.common.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+	at org.elasticsearch.transport.netty.ChannelBufferStreamInput.readByte(ChannelBufferStreamInput.java:132)
+	at org.elasticsearch.common.io.stream.StreamInput.readVInt(StreamInput.java:141)
+	at org.elasticsearch.common.io.stream.StreamInput.readString(StreamInput.java:272)
+	at org.elasticsearch.common.io.stream.HandlesStreamInput.readString(HandlesStreamInput.java:61)
+	at org.elasticsearch.common.io.stream.StreamInput.readStringArray(StreamInput.java:362)
+	at org.elasticsearch.action.admin.cluster.state.ClusterStateRequest.readFrom(ClusterStateRequest.java:132)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.handleRequest(MessageChannelHandler.java:209)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.messageReceived(MessageChannelHandler.java:109)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ][2014-10-27 13:25:03,523] - [Rogue] loaded [], sites []
+[INFO ][2014-10-27 13:25:06,856] - [Stallior] loaded [], sites []
+[INFO ][2014-10-27 13:25:06,926] - [Stallior] failed to get local cluster state for [#transport#-1][rkzhangdeMacBook-Pro.local][inet[/127.0.0.1:9300]], disconnecting...
+org.elasticsearch.transport.RemoteTransportException: [Jade Dragon][inet[/127.0.0.1:9300]][cluster/state]
+Caused by: java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 48
+	at org.elasticsearch.common.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+	at org.elasticsearch.transport.netty.ChannelBufferStreamInput.readByte(ChannelBufferStreamInput.java:132)
+	at org.elasticsearch.common.io.stream.StreamInput.readVInt(StreamInput.java:141)
+	at org.elasticsearch.common.io.stream.StreamInput.readString(StreamInput.java:272)
+	at org.elasticsearch.common.io.stream.HandlesStreamInput.readString(HandlesStreamInput.java:61)
+	at org.elasticsearch.common.io.stream.StreamInput.readStringArray(StreamInput.java:362)
+	at org.elasticsearch.action.admin.cluster.state.ClusterStateRequest.readFrom(ClusterStateRequest.java:132)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.handleRequest(MessageChannelHandler.java:209)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.messageReceived(MessageChannelHandler.java:109)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ][2014-10-27 13:30:12,356] - [American Dream] loaded [], sites []
+[INFO ][2014-10-27 13:30:48,385] - [Commander Kraken] loaded [], sites []
+[INFO ][2014-10-27 13:30:51,664] - [Radius] loaded [], sites []
+[INFO ][2014-10-27 13:33:17,014] - [Moon Knight] loaded [], sites []
+[INFO ][2014-10-27 13:33:20,746] - [Everett Thomas] loaded [], sites []
+[INFO ][2014-10-27 13:34:33,872] - [Blitzkrieger] loaded [], sites []
+[INFO ][2014-10-27 13:34:37,212] - [Agent Cheesecake] loaded [], sites []
+[INFO ][2014-10-27 13:42:28,559] - [Stunner] loaded [], sites []
+[INFO ][2014-10-27 13:42:32,290] - [Doctor Glitternight] loaded [], sites []
+[INFO ][2014-10-27 13:46:16,750] - [Bug] loaded [], sites []
+[INFO ][2014-10-27 13:58:55,539] - [Turner D. Century] loaded [], sites []
+[INFO ][2014-10-27 14:05:09,156] - [Human Fly] loaded [], sites []
+[INFO ][2014-10-27 14:05:13,207] - [Stinger] loaded [], sites []
+[INFO ][2014-10-27 14:07:15,323] - [Human Fly] failed to get node info for [#transport#-1][rkzhangdeMacBook-Pro.local][inet[/127.0.0.1:9300]], disconnecting...
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [][inet[/127.0.0.1:9300]][cluster/nodes/info] request_id [24] timed out after [5003ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:356)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ][2014-10-27 14:07:18,338] - [Stinger] failed to get local cluster state for [Gazelle][QzVvSFP5TYOvPEU2-kZi9Q][rkzhangdeMacBook-Pro.local][inet[/10.1.11.13:9300]], disconnecting...
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [Gazelle][inet[/10.1.11.13:9300]][cluster/state] request_id [72] timed out after [5004ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:356)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ][2014-10-27 14:07:18,338] - [Stinger] failed to get local cluster state for [#transport#-1][rkzhangdeMacBook-Pro.local][inet[/127.0.0.1:9300]], disconnecting...
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [][inet[/127.0.0.1:9300]][cluster/state] request_id [73] timed out after [5004ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:356)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ][2014-10-27 14:10:18,705] - [Jackdaw] loaded [], sites []
+[INFO ][2014-10-27 14:10:22,690] - [Silver Squire] loaded [], sites []
+[INFO ][2014-10-27 14:29:50,204] - [Asmodeus] loaded [], sites []
+[INFO ][2014-10-27 14:33:51,941] - [Omega the Unknown] loaded [], sites []
+[INFO ][2014-10-27 14:39:13,256] - [Black Cat] loaded [], sites []
+[INFO ][2014-10-27 14:39:19,556] - [Black Cat] failed to get node info for [#transport#-1][rkzhangdeMacBook-Pro.local][inet[/127.0.0.1:9300]], disconnecting...
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [][inet[/127.0.0.1:9300]][cluster/nodes/info] request_id [0] timed out after [5003ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:356)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ][2014-10-27 14:39:22,163] - [Cecilia Reyes] loaded [], sites []
+[INFO ][2014-10-27 14:39:24,564] - [Black Cat] failed to get node info for [#transport#-1][rkzhangdeMacBook-Pro.local][inet[/127.0.0.1:9300]], disconnecting...
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [][inet[/127.0.0.1:9300]][cluster/nodes/info] request_id [1] timed out after [5001ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:356)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ][2014-10-27 14:39:27,212] - [Cecilia Reyes] failed to get local cluster state for [#transport#-1][rkzhangdeMacBook-Pro.local][inet[/127.0.0.1:9300]], disconnecting...
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [][inet[/127.0.0.1:9300]][cluster/state] request_id [0] timed out after [5002ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:356)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ][2014-10-27 14:41:32,826] - [Wizard] loaded [], sites []
+[INFO ][2014-10-27 14:41:36,116] - [Red Skull] loaded [], sites []
+[INFO ][2014-10-27 14:41:56,196] - [Psyche] loaded [], sites []
+[INFO ][2014-10-27 14:42:54,014] - [Charon] loaded [], sites []
+[INFO ][2014-10-27 14:43:20,710] - [Fight-Man] loaded [], sites []
+[INFO ][2014-10-27 14:44:45,193] - [Sputnik] loaded [], sites []
+[INFO ][2014-10-27 14:45:52,040] - [Shiva] loaded [], sites []
+[INFO ][2014-10-27 14:45:55,828] - [Anti-Venom] loaded [], sites []
+[INFO ][2014-10-27 14:50:43,188] - [Anti-Venom] loaded [], sites []
+[INFO ][2014-10-27 14:50:46,628] - [Akhenaten] loaded [], sites []
+[INFO ][2014-10-27 14:51:11,884] - [Golden Archer] loaded [], sites []
+[INFO ][2014-10-27 14:54:03,199] - [Mother Superior] loaded [], sites []
+[INFO ][2014-10-27 14:55:26,150] - [Centurius] loaded [], sites []
+[INFO ][2014-10-27 14:58:10,183] - [Brain Cell] loaded [], sites []
+[INFO ][2014-10-27 14:58:13,892] - [Mother Earth] loaded [], sites []
+[INFO ][2014-10-27 15:10:50,718] - [Nuke - Frank Simpson] loaded [], sites []
+[INFO ][2014-10-27 15:17:35,443] - [M-Twins] loaded [], sites []
+[INFO ][2014-10-27 15:51:04,305] - [Leader] loaded [], sites []
+[INFO ][2014-10-27 15:53:58,311] - [Angel] loaded [], sites []
+[INFO ][2014-10-27 16:07:33,762] - [Big Bertha] loaded [], sites []
+[INFO ][2014-10-27 16:07:34,976] - [Big Bertha] failed to get local cluster state for [#transport#-1][rkzhangdeMacBook-Pro.local][inet[/127.0.0.1:9300]], disconnecting...
+org.elasticsearch.transport.RemoteTransportException: [Venomm][inet[/127.0.0.1:9300]][cluster/state]
+Caused by: java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 48
+	at org.elasticsearch.common.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+	at org.elasticsearch.transport.netty.ChannelBufferStreamInput.readByte(ChannelBufferStreamInput.java:132)
+	at org.elasticsearch.common.io.stream.StreamInput.readVInt(StreamInput.java:141)
+	at org.elasticsearch.common.io.stream.StreamInput.readString(StreamInput.java:272)
+	at org.elasticsearch.common.io.stream.HandlesStreamInput.readString(HandlesStreamInput.java:61)
+	at org.elasticsearch.common.io.stream.StreamInput.readStringArray(StreamInput.java:362)
+	at org.elasticsearch.action.admin.cluster.state.ClusterStateRequest.readFrom(ClusterStateRequest.java:132)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.handleRequest(MessageChannelHandler.java:209)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.messageReceived(MessageChannelHandler.java:109)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ][2014-10-27 16:07:39,853] - [Big Bertha] failed to get local cluster state for [#transport#-1][rkzhangdeMacBook-Pro.local][inet[/127.0.0.1:9300]], disconnecting...
+org.elasticsearch.transport.RemoteTransportException: [Venomm][inet[/127.0.0.1:9300]][cluster/state]
+Caused by: java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 48
+	at org.elasticsearch.common.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+	at org.elasticsearch.transport.netty.ChannelBufferStreamInput.readByte(ChannelBufferStreamInput.java:132)
+	at org.elasticsearch.common.io.stream.StreamInput.readVInt(StreamInput.java:141)
+	at org.elasticsearch.common.io.stream.StreamInput.readString(StreamInput.java:272)
+	at org.elasticsearch.common.io.stream.HandlesStreamInput.readString(HandlesStreamInput.java:61)
+	at org.elasticsearch.common.io.stream.StreamInput.readStringArray(StreamInput.java:362)
+	at org.elasticsearch.action.admin.cluster.state.ClusterStateRequest.readFrom(ClusterStateRequest.java:132)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.handleRequest(MessageChannelHandler.java:209)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.messageReceived(MessageChannelHandler.java:109)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ][2014-10-27 16:07:44,882] - [Big Bertha] failed to get local cluster state for [#transport#-1][rkzhangdeMacBook-Pro.local][inet[/127.0.0.1:9300]], disconnecting...
+org.elasticsearch.transport.RemoteTransportException: [Venomm][inet[/127.0.0.1:9300]][cluster/state]
+Caused by: java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 48
+	at org.elasticsearch.common.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+	at org.elasticsearch.transport.netty.ChannelBufferStreamInput.readByte(ChannelBufferStreamInput.java:132)
+	at org.elasticsearch.common.io.stream.StreamInput.readVInt(StreamInput.java:141)
+	at org.elasticsearch.common.io.stream.StreamInput.readString(StreamInput.java:272)
+	at org.elasticsearch.common.io.stream.HandlesStreamInput.readString(HandlesStreamInput.java:61)
+	at org.elasticsearch.common.io.stream.StreamInput.readStringArray(StreamInput.java:362)
+	at org.elasticsearch.action.admin.cluster.state.ClusterStateRequest.readFrom(ClusterStateRequest.java:132)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.handleRequest(MessageChannelHandler.java:209)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.messageReceived(MessageChannelHandler.java:109)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ][2014-10-27 16:07:49,900] - [Big Bertha] failed to get local cluster state for [#transport#-1][rkzhangdeMacBook-Pro.local][inet[/127.0.0.1:9300]], disconnecting...
+org.elasticsearch.transport.RemoteTransportException: [Venomm][inet[/127.0.0.1:9300]][cluster/state]
+Caused by: java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 48
+	at org.elasticsearch.common.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+	at org.elasticsearch.transport.netty.ChannelBufferStreamInput.readByte(ChannelBufferStreamInput.java:132)
+	at org.elasticsearch.common.io.stream.StreamInput.readVInt(StreamInput.java:141)
+	at org.elasticsearch.common.io.stream.StreamInput.readString(StreamInput.java:272)
+	at org.elasticsearch.common.io.stream.HandlesStreamInput.readString(HandlesStreamInput.java:61)
+	at org.elasticsearch.common.io.stream.StreamInput.readStringArray(StreamInput.java:362)
+	at org.elasticsearch.action.admin.cluster.state.ClusterStateRequest.readFrom(ClusterStateRequest.java:132)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.handleRequest(MessageChannelHandler.java:209)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.messageReceived(MessageChannelHandler.java:109)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ][2014-10-27 16:07:54,916] - [Big Bertha] failed to get local cluster state for [#transport#-1][rkzhangdeMacBook-Pro.local][inet[/127.0.0.1:9300]], disconnecting...
+org.elasticsearch.transport.RemoteTransportException: [Venomm][inet[/127.0.0.1:9300]][cluster/state]
+Caused by: java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 48
+	at org.elasticsearch.common.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+	at org.elasticsearch.transport.netty.ChannelBufferStreamInput.readByte(ChannelBufferStreamInput.java:132)
+	at org.elasticsearch.common.io.stream.StreamInput.readVInt(StreamInput.java:141)
+	at org.elasticsearch.common.io.stream.StreamInput.readString(StreamInput.java:272)
+	at org.elasticsearch.common.io.stream.HandlesStreamInput.readString(HandlesStreamInput.java:61)
+	at org.elasticsearch.common.io.stream.StreamInput.readStringArray(StreamInput.java:362)
+	at org.elasticsearch.action.admin.cluster.state.ClusterStateRequest.readFrom(ClusterStateRequest.java:132)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.handleRequest(MessageChannelHandler.java:209)
+	at org.elasticsearch.transport.netty.MessageChannelHandler.messageReceived(MessageChannelHandler.java:109)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:462)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:443)
+	at org.elasticsearch.common.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:303)
+	at org.elasticsearch.common.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:74)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.elasticsearch.common.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.elasticsearch.common.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO ][2014-10-27 16:15:20,643] - [Abner Jenkins] loaded [], sites []
+[INFO ][2014-10-27 16:57:29,929] - [Midnight] loaded [], sites []

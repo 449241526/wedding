@@ -1,0 +1,138 @@
+[INFO ][2014-10-09 13:53:22,576] - Root WebApplicationContext: initialization started
+[INFO ][2014-10-09 13:53:22,668] - Refreshing Root WebApplicationContext: startup date [Thu Oct 09 13:53:22 CST 2014]; root of context hierarchy
+[INFO ][2014-10-09 13:53:22,713] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/spring-config/applicationContext.xml]
+[INFO ][2014-10-09 13:53:23,023] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/spring-config/persistence.xml]
+[INFO ][2014-10-09 13:53:23,076] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/spring-config/redis-persistence.xml]
+[INFO ][2014-10-09 13:53:23,104] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/spring-config/spring-mail.xml]
+[INFO ][2014-10-09 13:53:23,414] - Loading properties file from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/application.properties]
+[INFO ][2014-10-09 13:53:23,491] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3d50f4cd: defining beans [placeholderConfig,appointController,ordersController,sellerController,shopController,unitTestCaseController,userAccountController,userEvaluateController,userOrderController,usersController,usersSiteController,weedingToolsController,withDrawController,adminAccountDao,rightsCenterDao,userAccountDao,userEvaluateDao,userFavoriteDao,usersDao,usersSiteDao,adminAccountServiceImpl,userAccountServiceImpl,userEvaluateServiceImpl,usersServiceImpl,usersSiteServiceImpl,wdRedisDao,simpleSendEmailUtils,appointDao,orderDao,orderItemsDao,orderManageDao,withDrawDao,appointServiceImpl,orderConstantsServiceImpl,orderItemServiceImpl,orderManageServiceImpl,orderServiceImpl,withDrawServiceImpl,sellerDao,sellerProfileDao,shopDao,sellerServiceImpl,shopServiceImpl,itemsDao,itemsServiceImpl,articleDao,toolsGoodDayDao,toolsNoteDao,toolsWeddingGovDao,articleServiceImpl,toolsGoodDayServiceImpl,toolsNoteServiceImpl,toolsWeddingGovServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,transactionManager,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jedisPoolConfig,jedisConnectionFactory,org.springframework.data.redis.core.RedisTemplate#0,mailSender,freeMarker,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,itemsDescMapper,itemsMapper,adminAccountMapper,rightsCenterMapper,userAccountMapper,userEvaluateMapper,userFavoriteMapper,userSiteMapper,usersMapper,appointMapper,orderItemsMapper,orderManageMapper,ordersMapper,withDrawMapper,sellerMapper,sellerProfileMapper,shopMapper,shopSiteMapper,articleMapper,toolsGoodDayMapper,toolsNoteMapper,toolsWeddingGovMapper]; root of factory hierarchy
+[INFO ][2014-10-09 13:53:24,890] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO ][2014-10-09 13:53:25,148] - Root WebApplicationContext: initialization completed in 2571 ms
+[INFO ][2014-10-09 13:53:25,148] - ###### wedding-home application start ######
+[INFO ][2014-10-09 13:53:25,195] - FrameworkServlet 'appServlet': initialization started
+[INFO ][2014-10-09 13:53:25,198] - Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Oct 09 13:53:25 CST 2014]; parent: Root WebApplicationContext
+[INFO ][2014-10-09 13:53:25,199] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/spring-config/servlet-context.xml]
+[INFO ][2014-10-09 13:53:25,283] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5bc45715: defining beans [appointController,ordersController,sellerController,shopController,unitTestCaseController,userAccountController,userEvaluateController,userOrderController,usersController,usersSiteController,weedingToolsController,withDrawController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,stringHttpMessageConverter,jsonHttpMessageConverter,exceptionResolver,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@3d50f4cd
+[INFO ][2014-10-09 13:53:25,571] - Mapped URL path [/appoint/show.do] onto handler 'appointController'
+[INFO ][2014-10-09 13:53:25,571] - Mapped URL path [/appoint/save.do] onto handler 'appointController'
+[INFO ][2014-10-09 13:53:25,572] - Mapped URL path [/orders/buildOrder.do] onto handler 'ordersController'
+[INFO ][2014-10-09 13:53:25,572] - Mapped URL path [/orders/updateOrderStatus.do] onto handler 'ordersController'
+[INFO ][2014-10-09 13:53:25,572] - Mapped URL path [/orders/query.do] onto handler 'ordersController'
+[INFO ][2014-10-09 13:53:25,572] - Mapped URL path [/seller/appoints/list.do] onto handler 'sellerController'
+[INFO ][2014-10-09 13:53:25,572] - Mapped URL path [/seller/orders/getOrders.do] onto handler 'sellerController'
+[INFO ][2014-10-09 13:53:25,572] - Mapped URL path [/seller/addSeller.do] onto handler 'sellerController'
+[INFO ][2014-10-09 13:53:25,572] - Mapped URL path [/seller/addShop.do] onto handler 'sellerController'
+[INFO ][2014-10-09 13:53:25,573] - Mapped URL path [/shop/queryShop.do] onto handler 'shopController'
+[INFO ][2014-10-09 13:53:25,573] - Mapped URL path [/shop/queryItem.do] onto handler 'shopController'
+[INFO ][2014-10-09 13:53:25,573] - Mapped URL path [/unit/test/webTest.do] onto handler 'unitTestCaseController'
+[INFO ][2014-10-09 13:53:25,573] - Mapped URL path [/user/login.do] onto handler 'userAccountController'
+[INFO ][2014-10-09 13:53:25,573] - Mapped URL path [/user/appoints.do] onto handler 'userAccountController'
+[INFO ][2014-10-09 13:53:25,574] - Mapped URL path [/user/updatepwd.do] onto handler 'userAccountController'
+[INFO ][2014-10-09 13:53:25,574] - Mapped URL path [/user/regUser.do] onto handler 'userAccountController'
+[INFO ][2014-10-09 13:53:25,574] - Mapped URL path [/user/resetPassword.do] onto handler 'userAccountController'
+[INFO ][2014-10-09 13:53:25,574] - Mapped URL path [/user/resetPWD.do] onto handler 'userAccountController'
+[INFO ][2014-10-09 13:53:25,574] - Mapped URL path [/user/image.do] onto handler 'userAccountController'
+[INFO ][2014-10-09 13:53:25,574] - Mapped URL path [/user/evaluate/save.do] onto handler 'userEvaluateController'
+[INFO ][2014-10-09 13:53:25,574] - Mapped URL path [/user/orders/getOrders.do] onto handler 'userOrderController'
+[INFO ][2014-10-09 13:53:25,574] - Mapped URL path [/umanage/modifyInfo.do] onto handler 'usersController'
+[INFO ][2014-10-09 13:53:25,574] - Mapped URL path [/usite/operator.do] onto handler 'usersSiteController'
+[INFO ][2014-10-09 13:53:25,575] - Mapped URL path [/weddingTools/weddingGov.do] onto handler 'weedingToolsController'
+[INFO ][2014-10-09 13:53:25,575] - Mapped URL path [/weddingTools/note.do] onto handler 'weedingToolsController'
+[INFO ][2014-10-09 13:53:25,575] - Mapped URL path [/weddingTools/searchMonth.do] onto handler 'weedingToolsController'
+[INFO ][2014-10-09 13:53:25,575] - Mapped URL path [/weddingTools/searchDay.do] onto handler 'weedingToolsController'
+[INFO ][2014-10-09 13:53:25,575] - Mapped URL path [/withdraw/save.do] onto handler 'withDrawController'
+[INFO ][2014-10-09 13:53:25,575] - Mapped URL path [/withdraw/query.do] onto handler 'withDrawController'
+[INFO ][2014-10-09 13:53:25,575] - Mapped URL path [/withdraw/tixian.do] onto handler 'withDrawController'
+[INFO ][2014-10-09 13:53:25,585] - FrameworkServlet 'appServlet': initialization completed in 390 ms
+[INFO ][2014-10-09 13:54:08,863] - Root WebApplicationContext: initialization started
+[INFO ][2014-10-09 13:54:08,948] - Refreshing Root WebApplicationContext: startup date [Thu Oct 09 13:54:08 CST 2014]; root of context hierarchy
+[INFO ][2014-10-09 13:54:08,985] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/spring-config/applicationContext.xml]
+[INFO ][2014-10-09 13:54:09,311] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/spring-config/persistence.xml]
+[INFO ][2014-10-09 13:54:09,363] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/spring-config/redis-persistence.xml]
+[INFO ][2014-10-09 13:54:09,391] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/spring-config/spring-mail.xml]
+[INFO ][2014-10-09 13:54:09,720] - Loading properties file from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/application.properties]
+[INFO ][2014-10-09 13:54:09,802] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6af8f1e9: defining beans [placeholderConfig,appointController,ordersController,sellerController,shopController,unitTestCaseController,userAccountController,userEvaluateController,userOrderController,usersController,usersSiteController,weedingToolsController,withDrawController,adminAccountDao,rightsCenterDao,userAccountDao,userEvaluateDao,userFavoriteDao,usersDao,usersSiteDao,adminAccountServiceImpl,userAccountServiceImpl,userEvaluateServiceImpl,usersServiceImpl,usersSiteServiceImpl,wdRedisDao,simpleSendEmailUtils,appointDao,orderDao,orderItemsDao,orderManageDao,withDrawDao,appointServiceImpl,orderConstantsServiceImpl,orderItemServiceImpl,orderManageServiceImpl,orderServiceImpl,withDrawServiceImpl,sellerDao,sellerProfileDao,shopDao,sellerServiceImpl,shopServiceImpl,itemsDao,itemsServiceImpl,articleDao,toolsGoodDayDao,toolsNoteDao,toolsWeddingGovDao,articleServiceImpl,toolsGoodDayServiceImpl,toolsNoteServiceImpl,toolsWeddingGovServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,transactionManager,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jedisPoolConfig,jedisConnectionFactory,org.springframework.data.redis.core.RedisTemplate#0,mailSender,freeMarker,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,itemsDescMapper,itemsMapper,adminAccountMapper,rightsCenterMapper,userAccountMapper,userEvaluateMapper,userFavoriteMapper,userSiteMapper,usersMapper,appointMapper,orderItemsMapper,orderManageMapper,ordersMapper,withDrawMapper,sellerMapper,sellerProfileMapper,shopMapper,shopSiteMapper,articleMapper,toolsGoodDayMapper,toolsNoteMapper,toolsWeddingGovMapper]; root of factory hierarchy
+[INFO ][2014-10-09 13:54:11,150] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO ][2014-10-09 13:54:11,388] - Root WebApplicationContext: initialization completed in 2524 ms
+[INFO ][2014-10-09 13:54:11,389] - ###### wedding-home application start ######
+[INFO ][2014-10-09 13:54:11,428] - FrameworkServlet 'appServlet': initialization started
+[INFO ][2014-10-09 13:54:11,431] - Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Oct 09 13:54:11 CST 2014]; parent: Root WebApplicationContext
+[INFO ][2014-10-09 13:54:11,432] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/spring-config/servlet-context.xml]
+[INFO ][2014-10-09 13:54:11,525] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@ddc0590: defining beans [appointController,ordersController,sellerController,shopController,unitTestCaseController,userAccountController,userEvaluateController,userOrderController,usersController,usersSiteController,weedingToolsController,withDrawController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,stringHttpMessageConverter,jsonHttpMessageConverter,exceptionResolver,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@6af8f1e9
+[INFO ][2014-10-09 13:54:11,789] - Mapped URL path [/appoint/show.do] onto handler 'appointController'
+[INFO ][2014-10-09 13:54:11,789] - Mapped URL path [/appoint/save.do] onto handler 'appointController'
+[INFO ][2014-10-09 13:54:11,789] - Mapped URL path [/orders/buildOrder.do] onto handler 'ordersController'
+[INFO ][2014-10-09 13:54:11,789] - Mapped URL path [/orders/updateOrderStatus.do] onto handler 'ordersController'
+[INFO ][2014-10-09 13:54:11,789] - Mapped URL path [/orders/query.do] onto handler 'ordersController'
+[INFO ][2014-10-09 13:54:11,790] - Mapped URL path [/seller/appoints/list.do] onto handler 'sellerController'
+[INFO ][2014-10-09 13:54:11,790] - Mapped URL path [/seller/orders/getOrders.do] onto handler 'sellerController'
+[INFO ][2014-10-09 13:54:11,790] - Mapped URL path [/seller/addSeller.do] onto handler 'sellerController'
+[INFO ][2014-10-09 13:54:11,790] - Mapped URL path [/seller/addShop.do] onto handler 'sellerController'
+[INFO ][2014-10-09 13:54:11,790] - Mapped URL path [/shop/queryShop.do] onto handler 'shopController'
+[INFO ][2014-10-09 13:54:11,790] - Mapped URL path [/shop/queryItem.do] onto handler 'shopController'
+[INFO ][2014-10-09 13:54:11,790] - Mapped URL path [/unit/test/webTest.do] onto handler 'unitTestCaseController'
+[INFO ][2014-10-09 13:54:11,791] - Mapped URL path [/user/login.do] onto handler 'userAccountController'
+[INFO ][2014-10-09 13:54:11,791] - Mapped URL path [/user/image.do] onto handler 'userAccountController'
+[INFO ][2014-10-09 13:54:11,791] - Mapped URL path [/user/appoints.do] onto handler 'userAccountController'
+[INFO ][2014-10-09 13:54:11,791] - Mapped URL path [/user/updatepwd.do] onto handler 'userAccountController'
+[INFO ][2014-10-09 13:54:11,791] - Mapped URL path [/user/regUser.do] onto handler 'userAccountController'
+[INFO ][2014-10-09 13:54:11,791] - Mapped URL path [/user/resetPassword.do] onto handler 'userAccountController'
+[INFO ][2014-10-09 13:54:11,791] - Mapped URL path [/user/resetPWD.do] onto handler 'userAccountController'
+[INFO ][2014-10-09 13:54:11,791] - Mapped URL path [/user/evaluate/save.do] onto handler 'userEvaluateController'
+[INFO ][2014-10-09 13:54:11,791] - Mapped URL path [/user/orders/getOrders.do] onto handler 'userOrderController'
+[INFO ][2014-10-09 13:54:11,792] - Mapped URL path [/umanage/modifyInfo.do] onto handler 'usersController'
+[INFO ][2014-10-09 13:54:11,792] - Mapped URL path [/usite/operator.do] onto handler 'usersSiteController'
+[INFO ][2014-10-09 13:54:11,792] - Mapped URL path [/weddingTools/weddingGov.do] onto handler 'weedingToolsController'
+[INFO ][2014-10-09 13:54:11,792] - Mapped URL path [/weddingTools/note.do] onto handler 'weedingToolsController'
+[INFO ][2014-10-09 13:54:11,792] - Mapped URL path [/weddingTools/searchMonth.do] onto handler 'weedingToolsController'
+[INFO ][2014-10-09 13:54:11,792] - Mapped URL path [/weddingTools/searchDay.do] onto handler 'weedingToolsController'
+[INFO ][2014-10-09 13:54:11,793] - Mapped URL path [/withdraw/save.do] onto handler 'withDrawController'
+[INFO ][2014-10-09 13:54:11,793] - Mapped URL path [/withdraw/query.do] onto handler 'withDrawController'
+[INFO ][2014-10-09 13:54:11,793] - Mapped URL path [/withdraw/tixian.do] onto handler 'withDrawController'
+[INFO ][2014-10-09 13:54:11,801] - FrameworkServlet 'appServlet': initialization completed in 373 ms
+[INFO ][2014-10-09 13:55:40,207] - Root WebApplicationContext: initialization started
+[INFO ][2014-10-09 13:55:40,290] - Refreshing Root WebApplicationContext: startup date [Thu Oct 09 13:55:40 CST 2014]; root of context hierarchy
+[INFO ][2014-10-09 13:55:40,333] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/spring-config/applicationContext.xml]
+[INFO ][2014-10-09 13:55:40,647] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/spring-config/persistence.xml]
+[INFO ][2014-10-09 13:55:40,685] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/spring-config/redis-persistence.xml]
+[INFO ][2014-10-09 13:55:40,712] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/spring-config/spring-mail.xml]
+[INFO ][2014-10-09 13:55:41,020] - Loading properties file from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/application.properties]
+[INFO ][2014-10-09 13:55:41,104] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7dd22edc: defining beans [placeholderConfig,appointController,ordersController,sellerController,shopController,unitTestCaseController,userAccountController,userEvaluateController,userOrderController,usersController,usersSiteController,weedingToolsController,withDrawController,adminAccountDao,rightsCenterDao,userAccountDao,userEvaluateDao,userFavoriteDao,usersDao,usersSiteDao,adminAccountServiceImpl,userAccountServiceImpl,userEvaluateServiceImpl,usersServiceImpl,usersSiteServiceImpl,wdRedisDao,simpleSendEmailUtils,appointDao,orderDao,orderItemsDao,orderManageDao,withDrawDao,appointServiceImpl,orderConstantsServiceImpl,orderItemServiceImpl,orderManageServiceImpl,orderServiceImpl,withDrawServiceImpl,sellerDao,sellerProfileDao,shopDao,sellerServiceImpl,shopServiceImpl,itemsDao,itemsServiceImpl,articleDao,toolsGoodDayDao,toolsNoteDao,toolsWeddingGovDao,articleServiceImpl,toolsGoodDayServiceImpl,toolsNoteServiceImpl,toolsWeddingGovServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,transactionManager,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jedisPoolConfig,jedisConnectionFactory,org.springframework.data.redis.core.RedisTemplate#0,mailSender,freeMarker,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,itemsDescMapper,itemsMapper,adminAccountMapper,rightsCenterMapper,userAccountMapper,userEvaluateMapper,userFavoriteMapper,userSiteMapper,usersMapper,appointMapper,orderItemsMapper,orderManageMapper,ordersMapper,withDrawMapper,sellerMapper,sellerProfileMapper,shopMapper,shopSiteMapper,articleMapper,toolsGoodDayMapper,toolsNoteMapper,toolsWeddingGovMapper]; root of factory hierarchy
+[INFO ][2014-10-09 13:55:42,489] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[INFO ][2014-10-09 13:55:42,744] - Root WebApplicationContext: initialization completed in 2537 ms
+[INFO ][2014-10-09 13:55:42,744] - ###### wedding-home application start ######
+[INFO ][2014-10-09 13:55:42,784] - FrameworkServlet 'appServlet': initialization started
+[INFO ][2014-10-09 13:55:42,788] - Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Thu Oct 09 13:55:42 CST 2014]; parent: Root WebApplicationContext
+[INFO ][2014-10-09 13:55:42,789] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/spring-config/servlet-context.xml]
+[INFO ][2014-10-09 13:55:42,881] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@730de2b: defining beans [appointController,ordersController,sellerController,shopController,unitTestCaseController,userAccountController,userEvaluateController,userOrderController,usersController,usersSiteController,weedingToolsController,withDrawController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,stringHttpMessageConverter,jsonHttpMessageConverter,exceptionResolver,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@7dd22edc
+[INFO ][2014-10-09 13:55:43,173] - Mapped URL path [/appoint/show.do] onto handler 'appointController'
+[INFO ][2014-10-09 13:55:43,173] - Mapped URL path [/appoint/save.do] onto handler 'appointController'
+[INFO ][2014-10-09 13:55:43,173] - Mapped URL path [/orders/buildOrder.do] onto handler 'ordersController'
+[INFO ][2014-10-09 13:55:43,173] - Mapped URL path [/orders/updateOrderStatus.do] onto handler 'ordersController'
+[INFO ][2014-10-09 13:55:43,173] - Mapped URL path [/orders/query.do] onto handler 'ordersController'
+[INFO ][2014-10-09 13:55:43,174] - Mapped URL path [/seller/orders/getOrders.do] onto handler 'sellerController'
+[INFO ][2014-10-09 13:55:43,174] - Mapped URL path [/seller/appoints/list.do] onto handler 'sellerController'
+[INFO ][2014-10-09 13:55:43,174] - Mapped URL path [/seller/addSeller.do] onto handler 'sellerController'
+[INFO ][2014-10-09 13:55:43,174] - Mapped URL path [/seller/addShop.do] onto handler 'sellerController'
+[INFO ][2014-10-09 13:55:43,174] - Mapped URL path [/shop/queryShop.do] onto handler 'shopController'
+[INFO ][2014-10-09 13:55:43,174] - Mapped URL path [/shop/queryItem.do] onto handler 'shopController'
+[INFO ][2014-10-09 13:55:43,174] - Mapped URL path [/unit/test/webTest.do] onto handler 'unitTestCaseController'
+[INFO ][2014-10-09 13:55:43,175] - Mapped URL path [/user/appoints.do] onto handler 'userAccountController'
+[INFO ][2014-10-09 13:55:43,175] - Mapped URL path [/user/updatepwd.do] onto handler 'userAccountController'
+[INFO ][2014-10-09 13:55:43,175] - Mapped URL path [/user/regUser.do] onto handler 'userAccountController'
+[INFO ][2014-10-09 13:55:43,175] - Mapped URL path [/user/resetPWD.do] onto handler 'userAccountController'
+[INFO ][2014-10-09 13:55:43,175] - Mapped URL path [/user/resetPassword.do] onto handler 'userAccountController'
+[INFO ][2014-10-09 13:55:43,175] - Mapped URL path [/user/login.do] onto handler 'userAccountController'
+[INFO ][2014-10-09 13:55:43,175] - Mapped URL path [/user/image.do] onto handler 'userAccountController'
+[INFO ][2014-10-09 13:55:43,175] - Mapped URL path [/user/evaluate/save.do] onto handler 'userEvaluateController'
+[INFO ][2014-10-09 13:55:43,175] - Mapped URL path [/user/orders/getOrders.do] onto handler 'userOrderController'
+[INFO ][2014-10-09 13:55:43,175] - Mapped URL path [/umanage/modifyInfo.do] onto handler 'usersController'
+[INFO ][2014-10-09 13:55:43,176] - Mapped URL path [/usite/operator.do] onto handler 'usersSiteController'
+[INFO ][2014-10-09 13:55:43,176] - Mapped URL path [/weddingTools/weddingGov.do] onto handler 'weedingToolsController'
+[INFO ][2014-10-09 13:55:43,176] - Mapped URL path [/weddingTools/note.do] onto handler 'weedingToolsController'
+[INFO ][2014-10-09 13:55:43,176] - Mapped URL path [/weddingTools/searchMonth.do] onto handler 'weedingToolsController'
+[INFO ][2014-10-09 13:55:43,176] - Mapped URL path [/weddingTools/searchDay.do] onto handler 'weedingToolsController'
+[INFO ][2014-10-09 13:55:43,176] - Mapped URL path [/withdraw/save.do] onto handler 'withDrawController'
+[INFO ][2014-10-09 13:55:43,176] - Mapped URL path [/withdraw/query.do] onto handler 'withDrawController'
+[INFO ][2014-10-09 13:55:43,177] - Mapped URL path [/withdraw/tixian.do] onto handler 'withDrawController'
+[INFO ][2014-10-09 13:55:43,185] - FrameworkServlet 'appServlet': initialization completed in 401 ms

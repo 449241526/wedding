@@ -1,0 +1,157 @@
+[INFO ][2014-09-16 20:22:57,513] - Root WebApplicationContext: initialization started
+[INFO ][2014-09-16 20:22:57,668] - Refreshing Root WebApplicationContext: startup date [Tue Sep 16 20:22:57 CST 2014]; root of context hierarchy
+[INFO ][2014-09-16 20:22:57,757] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/spring-config/applicationContext.xml]
+[INFO ][2014-09-16 20:22:58,021] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/spring-config/persistence.xml]
+[INFO ][2014-09-16 20:22:58,286] - Loading properties file from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/application.properties]
+[INFO ][2014-09-16 20:22:58,354] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2396e9d4: defining beans [placeholderConfig,ordersController,sellerController,unitTestCaseController,userAccountController,usersController,adminAccountDao,userAccountDao,usersDao,adminAccountServiceImpl,userAccountServiceImpl,usersServiceImpl,orderDao,orderItemsDao,orderServiceImpl,sellerDao,sellerServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,transactionManager,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,adminAccountMapper,userAccountMapper,usersMapper,orderItemsMapper,ordersMapper,itemsMapper,sellerMapper,sellerProfileMapper,shopMapper,shopSiteMapper]; root of factory hierarchy
+[INFO ][2014-09-16 20:22:59,381] - Root WebApplicationContext: initialization completed in 1867 ms
+[INFO ][2014-09-16 20:22:59,382] - ###### wedding-home application start ######
+[INFO ][2014-09-16 20:22:59,459] - FrameworkServlet 'appServlet': initialization started
+[INFO ][2014-09-16 20:22:59,466] - Refreshing WebApplicationContext for namespace 'appServlet-servlet': startup date [Tue Sep 16 20:22:59 CST 2014]; parent: Root WebApplicationContext
+[INFO ][2014-09-16 20:22:59,468] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/spring-config/servlet-context.xml]
+[INFO ][2014-09-16 20:22:59,546] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7c438e4f: defining beans [ordersController,sellerController,unitTestCaseController,userAccountController,usersController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,stringHttpMessageConverter,jsonHttpMessageConverter,exceptionResolver,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@2396e9d4
+[INFO ][2014-09-16 20:22:59,852] - Mapped URL path [/orders/buildOrder.do] onto handler 'ordersController'
+[INFO ][2014-09-16 20:22:59,852] - Mapped URL path [/orders/updateOrderStatus.do] onto handler 'ordersController'
+[INFO ][2014-09-16 20:22:59,852] - Mapped URL path [/seller/addSeller.do] onto handler 'sellerController'
+[INFO ][2014-09-16 20:22:59,852] - Mapped URL path [/unit/test/webTest.do] onto handler 'unitTestCaseController'
+[INFO ][2014-09-16 20:22:59,853] - Mapped URL path [/user/login.do] onto handler 'userAccountController'
+[INFO ][2014-09-16 20:22:59,853] - Mapped URL path [/user/regUser.do] onto handler 'userAccountController'
+[INFO ][2014-09-16 20:22:59,853] - Mapped URL path [/user/updatepwd.do] onto handler 'userAccountController'
+[INFO ][2014-09-16 20:22:59,853] - Mapped URL path [/user/resetPWD.do] onto handler 'userAccountController'
+[INFO ][2014-09-16 20:22:59,853] - Mapped URL path [/user/resetPassword.do] onto handler 'userAccountController'
+[INFO ][2014-09-16 20:22:59,853] - Mapped URL path [/users/regUser.do] onto handler 'usersController'
+[INFO ][2014-09-16 20:22:59,862] - FrameworkServlet 'appServlet': initialization completed in 403 ms
+[INFO ][2014-09-16 20:28:19,421] - Root WebApplicationContext: initialization started
+[INFO ][2014-09-16 20:28:19,520] - Refreshing Root WebApplicationContext: startup date [Tue Sep 16 20:28:19 CST 2014]; root of context hierarchy
+[INFO ][2014-09-16 20:28:19,563] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/spring-config/applicationContext.xml]
+[INFO ][2014-09-16 20:28:19,833] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/spring-config/persistence.xml]
+[INFO ][2014-09-16 20:28:20,080] - Loading properties file from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/application.properties]
+[INFO ][2014-09-16 20:28:20,126] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@8326160: defining beans [placeholderConfig,ordersController,sellerController,unitTestCaseController,userAccountController,usersController,adminAccountDao,userAccountDao,usersDao,adminAccountServiceImpl,userAccountServiceImpl,usersServiceImpl,wdRedisTemplate,orderDao,orderItemsDao,orderServiceImpl,sellerDao,sellerServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,transactionManager,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,adminAccountMapper,userAccountMapper,usersMapper,orderItemsMapper,ordersMapper,itemsMapper,sellerMapper,sellerProfileMapper,shopMapper,shopSiteMapper]; root of factory hierarchy
+[INFO ][2014-09-16 20:28:21,103] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@8326160: defining beans [placeholderConfig,ordersController,sellerController,unitTestCaseController,userAccountController,usersController,adminAccountDao,userAccountDao,usersDao,adminAccountServiceImpl,userAccountServiceImpl,usersServiceImpl,wdRedisTemplate,orderDao,orderItemsDao,orderServiceImpl,sellerDao,sellerServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,transactionManager,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,adminAccountMapper,userAccountMapper,usersMapper,orderItemsMapper,ordersMapper,itemsMapper,sellerMapper,sellerProfileMapper,shopMapper,shopSiteMapper]; root of factory hierarchy
+[ERROR][2014-09-16 20:28:21,107] - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'wdRedisTemplate': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.springframework.data.redis.core.RedisTemplate com.wedding.common.redis.WdRedisTemplate.redisTemplate; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.data.redis.core.RedisTemplate] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1146)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:628)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:672)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:403)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:664)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:239)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1212)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:610)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:453)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:89)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:262)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at runjettyrun.Bootstrap.main(Bootstrap.java:80)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.springframework.data.redis.core.RedisTemplate com.wedding.common.redis.WdRedisTemplate.redisTemplate; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.data.redis.core.RedisTemplate] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:517)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:286)
+	... 25 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [org.springframework.data.redis.core.RedisTemplate] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:988)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:858)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:770)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:489)
+	... 27 more
+[INFO ][2014-09-16 21:44:17,271] - Root WebApplicationContext: initialization started
+[INFO ][2014-09-16 21:44:17,361] - Refreshing Root WebApplicationContext: startup date [Tue Sep 16 21:44:17 CST 2014]; root of context hierarchy
+[INFO ][2014-09-16 21:44:17,407] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/spring-config/applicationContext.xml]
+[INFO ][2014-09-16 21:44:17,641] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/spring-config/persistence.xml]
+[INFO ][2014-09-16 21:44:17,875] - Loading properties file from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-home/target/classes/application.properties]
+[INFO ][2014-09-16 21:44:17,936] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5f90d5e5: defining beans [placeholderConfig,ordersController,sellerController,unitTestCaseController,userAccountController,usersController,adminAccountDao,userAccountDao,usersDao,adminAccountServiceImpl,userAccountServiceImpl,usersServiceImpl,wdRedisDao,orderDao,orderItemsDao,orderServiceImpl,sellerDao,sellerServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,transactionManager,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,adminAccountMapper,userAccountMapper,usersMapper,orderItemsMapper,ordersMapper,itemsMapper,sellerMapper,sellerProfileMapper,shopMapper,shopSiteMapper]; root of factory hierarchy
+[INFO ][2014-09-16 21:44:18,745] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5f90d5e5: defining beans [placeholderConfig,ordersController,sellerController,unitTestCaseController,userAccountController,usersController,adminAccountDao,userAccountDao,usersDao,adminAccountServiceImpl,userAccountServiceImpl,usersServiceImpl,wdRedisDao,orderDao,orderItemsDao,orderServiceImpl,sellerDao,sellerServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,dataSource,transactionManager,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,adminAccountMapper,userAccountMapper,usersMapper,orderItemsMapper,ordersMapper,itemsMapper,sellerMapper,sellerProfileMapper,shopMapper,shopSiteMapper]; root of factory hierarchy
+[ERROR][2014-09-16 21:44:18,747] - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ordersController': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.wedding.order.service.OrderService com.wedding.home.controller.OrdersController.orderService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderServiceImpl': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.wedding.order.dao.OrderDao com.wedding.order.service.impl.OrderServiceImpl.orderDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderDao' defined in file [/Users/rkzhang/Documents/widding_workspace/wedding/wedding-order/target/classes/com/wedding/order/dao/OrderDao.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.wedding.order.dao.OrderDao]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1146)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:628)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:410)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:672)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:403)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:664)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:239)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1212)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:610)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:453)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:89)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:262)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at runjettyrun.Bootstrap.main(Bootstrap.java:80)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.wedding.order.service.OrderService com.wedding.home.controller.OrdersController.orderService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderServiceImpl': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.wedding.order.dao.OrderDao com.wedding.order.service.impl.OrderServiceImpl.orderDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderDao' defined in file [/Users/rkzhang/Documents/widding_workspace/wedding/wedding-order/target/classes/com/wedding/order/dao/OrderDao.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.wedding.order.dao.OrderDao]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:517)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:286)
+	... 25 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderServiceImpl': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.wedding.order.dao.OrderDao com.wedding.order.service.impl.OrderServiceImpl.orderDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderDao' defined in file [/Users/rkzhang/Documents/widding_workspace/wedding/wedding-order/target/classes/com/wedding/order/dao/OrderDao.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.wedding.order.dao.OrderDao]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1146)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:912)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:855)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:770)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:489)
+	... 27 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.wedding.order.dao.OrderDao com.wedding.order.service.impl.OrderServiceImpl.orderDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderDao' defined in file [/Users/rkzhang/Documents/widding_workspace/wedding/wedding-order/target/classes/com/wedding/order/dao/OrderDao.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.wedding.order.dao.OrderDao]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:517)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:286)
+	... 38 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderDao' defined in file [/Users/rkzhang/Documents/widding_workspace/wedding/wedding-order/target/classes/com/wedding/order/dao/OrderDao.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.wedding.order.dao.OrderDao]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1037)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:983)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:487)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:296)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:912)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:855)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:770)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:489)
+	... 40 more
+Caused by: org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.wedding.order.dao.OrderDao]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:163)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1030)
+	... 51 more
+Caused by: java.lang.NullPointerException
+	at com.wedding.common.util.SpringContextUtil.getBean(SpringContextUtil.java:24)
+	at com.wedding.common.mybatis.MyBatisBaseDao.<init>(MyBatisBaseDao.java:12)
+	at com.wedding.order.dao.OrderDao.<init>(OrderDao.java:18)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:148)
+	... 53 more

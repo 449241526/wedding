@@ -1,0 +1,9 @@
+[INFO ][2014-12-14 22:18:32,437] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-tools/target/test-classes/spring-config/applicationContext.xml]
+[INFO ][2014-12-14 22:18:32,744] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-tools/target/test-classes/spring-config/persistence.xml]
+[INFO ][2014-12-14 22:18:32,815] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-tools/target/test-classes/spring-config/redis-persistence.xml]
+[INFO ][2014-12-14 22:18:32,850] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-tools/target/test-classes/spring-config/spring-mail.xml]
+[INFO ][2014-12-14 22:18:32,884] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@53424146: startup date [Sun Dec 14 22:18:32 CST 2014]; root of context hierarchy
+[INFO ][2014-12-14 22:18:33,078] - Loading properties file from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-tools/target/test-classes/dev.properties]
+[INFO ][2014-12-14 22:18:34,040] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[DEBUG][2014-12-14 22:18:36,744] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[INFO ][2014-12-14 22:18:36,766] - Closing org.springframework.web.context.support.GenericWebApplicationContext@53424146: startup date [Sun Dec 14 22:18:32 CST 2014]; root of context hierarchy

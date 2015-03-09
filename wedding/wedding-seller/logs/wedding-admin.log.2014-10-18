@@ -1,0 +1,516 @@
+[INFO ][2014-10-18 13:29:09,535] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-seller/target/test-classes/spring-config/applicationContext.xml]
+[INFO ][2014-10-18 13:29:10,008] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-seller/target/test-classes/spring-config/persistence.xml]
+[INFO ][2014-10-18 13:29:10,087] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-seller/target/test-classes/spring-config/redis-persistence.xml]
+[INFO ][2014-10-18 13:29:10,121] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-seller/target/test-classes/spring-config/spring-mail.xml]
+[INFO ][2014-10-18 13:29:10,166] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@13dd5ec: startup date [Sat Oct 18 13:29:10 CST 2014]; root of context hierarchy
+[INFO ][2014-10-18 13:29:10,431] - Loading properties file from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-seller/target/test-classes/dev.properties]
+[INFO ][2014-10-18 13:29:10,496] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6af8bdc7: defining beans [placeholderConfig,sellerDao,sellerManageDao,sellerProfileDao,shopDao,sellerConstantsServiceImpl,sellerManageServiceImpl,sellerProfileServiceImpl,sellerServiceImpl,shopServiceImpl,adminAccountDao,rightsCenterDao,userAccountDao,userEvaluateDao,userFavoriteDao,usersDao,userSiteTotalDao,usersSiteDao,adminAccountServiceImpl,rightsCenterServiceImpl,userAccountServiceImpl,userEvaluateServiceImpl,userFavoriteServiceImpl,userSiteTotalServiceImpl,usersServiceImpl,usersSiteServiceImpl,redisKeyResolver,wdRedisDao,simpleSendEmailUtils,addressesDao,addressesViewDao,articleDao,toolsGoodDayDao,toolsNoteDao,toolsWeddingGovDao,areaDtoPump,addressesViewServiceImpl,areaQueryServiceImpl,articleServiceImpl,toolsGoodDayServiceImpl,toolsNoteServiceImpl,toolsWeddingGovServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.wedding.common.util.SpringContextUtil#0,dataSource,transactionManager,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,logDataSource,jdbcTemplate,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jedisPoolConfig,jedisConnectionFactory,org.springframework.data.redis.core.RedisTemplate#0,mailSender,freeMarker,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,adminAccountMapper,rightsCenterMapper,userAccountMapper,userEvaluateMapper,userFavoriteMapper,userSiteMapper,userSiteTotalMapper,usersMapper,sellerManageMapper,sellerMapper,sellerProfileMapper,shopMapper,shopSiteMapper,addressesExMapper,addressesMapper,addressesQueryViewMapper,addressesViewMapper,articleMapper,toolsGoodDayMapper,toolsNoteMapper,toolsWeddingGovMapper]; root of factory hierarchy
+[INFO ][2014-10-18 13:29:11,980] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[DEBUG][2014-10-18 13:29:12,117] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:12,205] - get all from redis list --- key eq : tool:areaDto:parentId:340000:forlist
+[DEBUG][2014-10-18 13:29:12,213] - get all from redis list --- key eq : tool:areaDto:parentId:341200:forlist
+[DEBUG][2014-10-18 13:29:15,855] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:15,874] - get all from redis list --- key eq : tool:areaDto:parentId:310000:forlist
+[DEBUG][2014-10-18 13:29:15,875] - get all from redis list --- key eq : tool:areaDto:parentId:310100:forlist
+[DEBUG][2014-10-18 13:29:16,154] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:16,172] - get all from redis list --- key eq : tool:areaDto:parentId:410000:forlist
+[DEBUG][2014-10-18 13:29:16,182] - get all from redis list --- key eq : tool:areaDto:parentId:411500:forlist
+[DEBUG][2014-10-18 13:29:16,449] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:16,468] - get all from redis list --- key eq : tool:areaDto:parentId:650000:forlist
+[DEBUG][2014-10-18 13:29:16,777] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=650100, parentId=650000, name=乌鲁木齐市, level=2)
+[DEBUG][2014-10-18 13:29:16,779] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=650200, parentId=650000, name=克拉玛依市, level=2)
+[DEBUG][2014-10-18 13:29:16,779] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=652100, parentId=650000, name=吐鲁番地区, level=2)
+[DEBUG][2014-10-18 13:29:16,780] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=652200, parentId=650000, name=哈密地区, level=2)
+[DEBUG][2014-10-18 13:29:16,780] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=652300, parentId=650000, name=昌吉回族自治州, level=2)
+[DEBUG][2014-10-18 13:29:16,781] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=652700, parentId=650000, name=博尔塔拉蒙古自治州, level=2)
+[DEBUG][2014-10-18 13:29:16,781] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=652800, parentId=650000, name=巴音郭楞蒙古自治州, level=2)
+[DEBUG][2014-10-18 13:29:16,782] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=652900, parentId=650000, name=阿克苏地区, level=2)
+[DEBUG][2014-10-18 13:29:16,782] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=653000, parentId=650000, name=克孜勒苏柯尔克孜自治州, level=2)
+[DEBUG][2014-10-18 13:29:16,783] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=653100, parentId=650000, name=喀什地区, level=2)
+[DEBUG][2014-10-18 13:29:16,783] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=653200, parentId=650000, name=和田地区, level=2)
+[DEBUG][2014-10-18 13:29:16,784] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=654000, parentId=650000, name=伊犁哈萨克自治州, level=2)
+[DEBUG][2014-10-18 13:29:16,784] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=654200, parentId=650000, name=塔城地区, level=2)
+[DEBUG][2014-10-18 13:29:16,784] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=654300, parentId=650000, name=阿勒泰地区, level=2)
+[DEBUG][2014-10-18 13:29:16,785] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=659000, parentId=650000, name=自治区直辖县级行政区划, level=2)
+[DEBUG][2014-10-18 13:29:16,785] - get all from redis list --- key eq : tool:areaDto:parentId:654200:forlist
+[DEBUG][2014-10-18 13:29:17,052] - put into redis list --- key eq : tool:areaDto:parentId:654200:forlist and value eq AreaDto(id=654201, parentId=654200, name=塔城市, level=3)
+[DEBUG][2014-10-18 13:29:17,053] - put into redis list --- key eq : tool:areaDto:parentId:654200:forlist and value eq AreaDto(id=654202, parentId=654200, name=乌苏市, level=3)
+[DEBUG][2014-10-18 13:29:17,053] - put into redis list --- key eq : tool:areaDto:parentId:654200:forlist and value eq AreaDto(id=654221, parentId=654200, name=额敏县, level=3)
+[DEBUG][2014-10-18 13:29:17,054] - put into redis list --- key eq : tool:areaDto:parentId:654200:forlist and value eq AreaDto(id=654223, parentId=654200, name=沙湾县, level=3)
+[DEBUG][2014-10-18 13:29:17,055] - put into redis list --- key eq : tool:areaDto:parentId:654200:forlist and value eq AreaDto(id=654224, parentId=654200, name=托里县, level=3)
+[DEBUG][2014-10-18 13:29:17,055] - put into redis list --- key eq : tool:areaDto:parentId:654200:forlist and value eq AreaDto(id=654225, parentId=654200, name=裕民县, level=3)
+[DEBUG][2014-10-18 13:29:17,056] - put into redis list --- key eq : tool:areaDto:parentId:654200:forlist and value eq AreaDto(id=654226, parentId=654200, name=和布克赛尔蒙古自治县, level=3)
+[DEBUG][2014-10-18 13:29:17,323] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:17,341] - get all from redis list --- key eq : tool:areaDto:parentId:440000:forlist
+[DEBUG][2014-10-18 13:29:17,351] - get all from redis list --- key eq : tool:areaDto:parentId:440600:forlist
+[DEBUG][2014-10-18 13:29:17,619] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:17,636] - get all from redis list --- key eq : tool:areaDto:parentId:440000:forlist
+[DEBUG][2014-10-18 13:29:17,645] - get all from redis list --- key eq : tool:areaDto:parentId:441800:forlist
+[DEBUG][2014-10-18 13:29:17,922] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:17,938] - get all from redis list --- key eq : tool:areaDto:parentId:440300:forlist
+[DEBUG][2014-10-18 13:29:17,938] - get all from redis list --- key eq : tool:areaDto:parentId:440301:forlist
+[DEBUG][2014-10-18 13:29:18,206] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:18,223] - get all from redis list --- key eq : tool:areaDto:parentId:620000:forlist
+[DEBUG][2014-10-18 13:29:18,486] - put into redis list --- key eq : tool:areaDto:parentId:620000:forlist and value eq AreaDto(id=620100, parentId=620000, name=兰州市, level=2)
+[DEBUG][2014-10-18 13:29:18,486] - put into redis list --- key eq : tool:areaDto:parentId:620000:forlist and value eq AreaDto(id=620200, parentId=620000, name=嘉峪关市, level=2)
+[DEBUG][2014-10-18 13:29:18,487] - put into redis list --- key eq : tool:areaDto:parentId:620000:forlist and value eq AreaDto(id=620300, parentId=620000, name=金昌市, level=2)
+[DEBUG][2014-10-18 13:29:18,487] - put into redis list --- key eq : tool:areaDto:parentId:620000:forlist and value eq AreaDto(id=620400, parentId=620000, name=白银市, level=2)
+[DEBUG][2014-10-18 13:29:18,488] - put into redis list --- key eq : tool:areaDto:parentId:620000:forlist and value eq AreaDto(id=620500, parentId=620000, name=天水市, level=2)
+[DEBUG][2014-10-18 13:29:18,488] - put into redis list --- key eq : tool:areaDto:parentId:620000:forlist and value eq AreaDto(id=620600, parentId=620000, name=武威市, level=2)
+[DEBUG][2014-10-18 13:29:18,488] - put into redis list --- key eq : tool:areaDto:parentId:620000:forlist and value eq AreaDto(id=620700, parentId=620000, name=张掖市, level=2)
+[DEBUG][2014-10-18 13:29:18,489] - put into redis list --- key eq : tool:areaDto:parentId:620000:forlist and value eq AreaDto(id=620800, parentId=620000, name=平凉市, level=2)
+[DEBUG][2014-10-18 13:29:18,489] - put into redis list --- key eq : tool:areaDto:parentId:620000:forlist and value eq AreaDto(id=620900, parentId=620000, name=酒泉市, level=2)
+[DEBUG][2014-10-18 13:29:18,490] - put into redis list --- key eq : tool:areaDto:parentId:620000:forlist and value eq AreaDto(id=621000, parentId=620000, name=庆阳市, level=2)
+[DEBUG][2014-10-18 13:29:18,490] - put into redis list --- key eq : tool:areaDto:parentId:620000:forlist and value eq AreaDto(id=621100, parentId=620000, name=定西市, level=2)
+[DEBUG][2014-10-18 13:29:18,491] - put into redis list --- key eq : tool:areaDto:parentId:620000:forlist and value eq AreaDto(id=621200, parentId=620000, name=陇南市, level=2)
+[DEBUG][2014-10-18 13:29:18,491] - put into redis list --- key eq : tool:areaDto:parentId:620000:forlist and value eq AreaDto(id=622900, parentId=620000, name=临夏回族自治州, level=2)
+[DEBUG][2014-10-18 13:29:18,492] - put into redis list --- key eq : tool:areaDto:parentId:620000:forlist and value eq AreaDto(id=623000, parentId=620000, name=甘南藏族自治州, level=2)
+[DEBUG][2014-10-18 13:29:18,492] - get all from redis list --- key eq : tool:areaDto:parentId:620100:forlist
+[DEBUG][2014-10-18 13:29:18,752] - put into redis list --- key eq : tool:areaDto:parentId:620100:forlist and value eq AreaDto(id=620101, parentId=620100, name=市辖区, level=3)
+[DEBUG][2014-10-18 13:29:18,753] - put into redis list --- key eq : tool:areaDto:parentId:620100:forlist and value eq AreaDto(id=620102, parentId=620100, name=城关区, level=3)
+[DEBUG][2014-10-18 13:29:18,754] - put into redis list --- key eq : tool:areaDto:parentId:620100:forlist and value eq AreaDto(id=620103, parentId=620100, name=七里河区, level=3)
+[DEBUG][2014-10-18 13:29:18,754] - put into redis list --- key eq : tool:areaDto:parentId:620100:forlist and value eq AreaDto(id=620104, parentId=620100, name=西固区, level=3)
+[DEBUG][2014-10-18 13:29:18,755] - put into redis list --- key eq : tool:areaDto:parentId:620100:forlist and value eq AreaDto(id=620105, parentId=620100, name=安宁区, level=3)
+[DEBUG][2014-10-18 13:29:18,755] - put into redis list --- key eq : tool:areaDto:parentId:620100:forlist and value eq AreaDto(id=620111, parentId=620100, name=红古区, level=3)
+[DEBUG][2014-10-18 13:29:18,756] - put into redis list --- key eq : tool:areaDto:parentId:620100:forlist and value eq AreaDto(id=620121, parentId=620100, name=永登县, level=3)
+[DEBUG][2014-10-18 13:29:18,756] - put into redis list --- key eq : tool:areaDto:parentId:620100:forlist and value eq AreaDto(id=620122, parentId=620100, name=皋兰县, level=3)
+[DEBUG][2014-10-18 13:29:18,757] - put into redis list --- key eq : tool:areaDto:parentId:620100:forlist and value eq AreaDto(id=620123, parentId=620100, name=榆中县, level=3)
+[DEBUG][2014-10-18 13:29:19,021] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:19,037] - get all from redis list --- key eq : tool:areaDto:parentId:230000:forlist
+[DEBUG][2014-10-18 13:29:19,043] - get all from redis list --- key eq : tool:areaDto:parentId:232700:forlist
+[DEBUG][2014-10-18 13:29:19,308] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:19,325] - get all from redis list --- key eq : tool:areaDto:parentId:500000:forlist
+[DEBUG][2014-10-18 13:29:19,326] - get all from redis list --- key eq : tool:areaDto:parentId:500100:forlist
+[DEBUG][2014-10-18 13:29:19,607] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:19,624] - get all from redis list --- key eq : tool:areaDto:parentId:440000:forlist
+[DEBUG][2014-10-18 13:29:19,633] - get all from redis list --- key eq : tool:areaDto:parentId:441400:forlist
+[DEBUG][2014-10-18 13:29:19,900] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:19,915] - get all from redis list --- key eq : tool:areaDto:parentId:710000:forlist
+[DEBUG][2014-10-18 13:29:20,175] - get all from redis list --- key eq : tool:areaDto:parentId:710000:forlist
+[DEBUG][2014-10-18 13:29:20,700] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:20,715] - get all from redis list --- key eq : tool:areaDto:parentId:370000:forlist
+[DEBUG][2014-10-18 13:29:20,721] - get all from redis list --- key eq : tool:areaDto:parentId:371600:forlist
+[DEBUG][2014-10-18 13:29:20,988] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:21,006] - get all from redis list --- key eq : tool:areaDto:parentId:140000:forlist
+[DEBUG][2014-10-18 13:29:21,011] - get all from redis list --- key eq : tool:areaDto:parentId:140100:forlist
+[DEBUG][2014-10-18 13:29:21,280] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:21,296] - get all from redis list --- key eq : tool:areaDto:parentId:450000:forlist
+[DEBUG][2014-10-18 13:29:21,301] - get all from redis list --- key eq : tool:areaDto:parentId:450500:forlist
+[DEBUG][2014-10-18 13:29:21,569] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:21,584] - get all from redis list --- key eq : tool:areaDto:parentId:530000:forlist
+[DEBUG][2014-10-18 13:29:21,591] - get all from redis list --- key eq : tool:areaDto:parentId:530400:forlist
+[DEBUG][2014-10-18 13:29:21,859] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:21,875] - get all from redis list --- key eq : tool:areaDto:parentId:710000:forlist
+[DEBUG][2014-10-18 13:29:22,132] - get all from redis list --- key eq : tool:areaDto:parentId:710000:forlist
+[DEBUG][2014-10-18 13:29:22,657] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:22,672] - get all from redis list --- key eq : tool:areaDto:parentId:420000:forlist
+[DEBUG][2014-10-18 13:29:22,678] - get all from redis list --- key eq : tool:areaDto:parentId:421000:forlist
+[DEBUG][2014-10-18 13:29:22,982] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:22,998] - get all from redis list --- key eq : tool:areaDto:parentId:110000:forlist
+[DEBUG][2014-10-18 13:29:22,998] - get all from redis list --- key eq : tool:areaDto:parentId:110100:forlist
+[DEBUG][2014-10-18 13:29:23,276] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:23,290] - get all from redis list --- key eq : tool:areaDto:parentId:310000:forlist
+[DEBUG][2014-10-18 13:29:23,290] - get all from redis list --- key eq : tool:areaDto:parentId:310100:forlist
+[DEBUG][2014-10-18 13:29:23,565] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:23,579] - get all from redis list --- key eq : tool:areaDto:parentId:610000:forlist
+[DEBUG][2014-10-18 13:29:23,582] - get all from redis list --- key eq : tool:areaDto:parentId:610600:forlist
+[DEBUG][2014-10-18 13:29:23,843] - put into redis list --- key eq : tool:areaDto:parentId:610600:forlist and value eq AreaDto(id=610601, parentId=610600, name=市辖区, level=3)
+[DEBUG][2014-10-18 13:29:23,844] - put into redis list --- key eq : tool:areaDto:parentId:610600:forlist and value eq AreaDto(id=610602, parentId=610600, name=宝塔区, level=3)
+[DEBUG][2014-10-18 13:29:23,844] - put into redis list --- key eq : tool:areaDto:parentId:610600:forlist and value eq AreaDto(id=610621, parentId=610600, name=延长县, level=3)
+[DEBUG][2014-10-18 13:29:23,845] - put into redis list --- key eq : tool:areaDto:parentId:610600:forlist and value eq AreaDto(id=610622, parentId=610600, name=延川县, level=3)
+[DEBUG][2014-10-18 13:29:23,845] - put into redis list --- key eq : tool:areaDto:parentId:610600:forlist and value eq AreaDto(id=610623, parentId=610600, name=子长县, level=3)
+[DEBUG][2014-10-18 13:29:23,846] - put into redis list --- key eq : tool:areaDto:parentId:610600:forlist and value eq AreaDto(id=610624, parentId=610600, name=安塞县, level=3)
+[DEBUG][2014-10-18 13:29:23,846] - put into redis list --- key eq : tool:areaDto:parentId:610600:forlist and value eq AreaDto(id=610625, parentId=610600, name=志丹县, level=3)
+[DEBUG][2014-10-18 13:29:23,847] - put into redis list --- key eq : tool:areaDto:parentId:610600:forlist and value eq AreaDto(id=610626, parentId=610600, name=吴起县, level=3)
+[DEBUG][2014-10-18 13:29:23,847] - put into redis list --- key eq : tool:areaDto:parentId:610600:forlist and value eq AreaDto(id=610627, parentId=610600, name=甘泉县, level=3)
+[DEBUG][2014-10-18 13:29:23,848] - put into redis list --- key eq : tool:areaDto:parentId:610600:forlist and value eq AreaDto(id=610628, parentId=610600, name=富县, level=3)
+[DEBUG][2014-10-18 13:29:23,848] - put into redis list --- key eq : tool:areaDto:parentId:610600:forlist and value eq AreaDto(id=610629, parentId=610600, name=洛川县, level=3)
+[DEBUG][2014-10-18 13:29:23,848] - put into redis list --- key eq : tool:areaDto:parentId:610600:forlist and value eq AreaDto(id=610630, parentId=610600, name=宜川县, level=3)
+[DEBUG][2014-10-18 13:29:23,849] - put into redis list --- key eq : tool:areaDto:parentId:610600:forlist and value eq AreaDto(id=610631, parentId=610600, name=黄龙县, level=3)
+[DEBUG][2014-10-18 13:29:23,849] - put into redis list --- key eq : tool:areaDto:parentId:610600:forlist and value eq AreaDto(id=610632, parentId=610600, name=黄陵县, level=3)
+[DEBUG][2014-10-18 13:29:24,116] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:24,127] - get all from redis list --- key eq : tool:areaDto:parentId:120000:forlist
+[DEBUG][2014-10-18 13:29:24,128] - get all from redis list --- key eq : tool:areaDto:parentId:120100:forlist
+[DEBUG][2014-10-18 13:29:24,401] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:24,415] - get all from redis list --- key eq : tool:areaDto:parentId:430000:forlist
+[DEBUG][2014-10-18 13:29:24,419] - get all from redis list --- key eq : tool:areaDto:parentId:433100:forlist
+[DEBUG][2014-10-18 13:29:24,685] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:24,700] - get all from redis list --- key eq : tool:areaDto:parentId:450000:forlist
+[DEBUG][2014-10-18 13:29:24,708] - get all from redis list --- key eq : tool:areaDto:parentId:450800:forlist
+[DEBUG][2014-10-18 13:29:24,975] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:24,988] - get all from redis list --- key eq : tool:areaDto:parentId:330000:forlist
+[DEBUG][2014-10-18 13:29:24,991] - get all from redis list --- key eq : tool:areaDto:parentId:331100:forlist
+[DEBUG][2014-10-18 13:29:25,258] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:25,269] - get all from redis list --- key eq : tool:areaDto:parentId:420000:forlist
+[DEBUG][2014-10-18 13:29:25,273] - get all from redis list --- key eq : tool:areaDto:parentId:420300:forlist
+[DEBUG][2014-10-18 13:29:25,543] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:25,554] - get all from redis list --- key eq : tool:areaDto:parentId:440300:forlist
+[DEBUG][2014-10-18 13:29:25,555] - get all from redis list --- key eq : tool:areaDto:parentId:440301:forlist
+[DEBUG][2014-10-18 13:29:25,821] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:25,832] - get all from redis list --- key eq : tool:areaDto:parentId:350000:forlist
+[DEBUG][2014-10-18 13:29:25,834] - get all from redis list --- key eq : tool:areaDto:parentId:350600:forlist
+[DEBUG][2014-10-18 13:29:26,101] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:26,114] - get all from redis list --- key eq : tool:areaDto:parentId:520000:forlist
+[DEBUG][2014-10-18 13:29:26,117] - get all from redis list --- key eq : tool:areaDto:parentId:522700:forlist
+[DEBUG][2014-10-18 13:29:26,386] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:26,398] - get all from redis list --- key eq : tool:areaDto:parentId:360000:forlist
+[DEBUG][2014-10-18 13:29:26,401] - get all from redis list --- key eq : tool:areaDto:parentId:360600:forlist
+[DEBUG][2014-10-18 13:29:26,666] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:26,677] - get all from redis list --- key eq : tool:areaDto:parentId:440000:forlist
+[DEBUG][2014-10-18 13:29:26,683] - get all from redis list --- key eq : tool:areaDto:parentId:445200:forlist
+[DEBUG][2014-10-18 13:29:26,950] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:26,962] - get all from redis list --- key eq : tool:areaDto:parentId:330000:forlist
+[DEBUG][2014-10-18 13:29:26,966] - get all from redis list --- key eq : tool:areaDto:parentId:330100:forlist
+[DEBUG][2014-10-18 13:29:27,239] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:27,250] - get all from redis list --- key eq : tool:areaDto:parentId:150000:forlist
+[DEBUG][2014-10-18 13:29:27,253] - get all from redis list --- key eq : tool:areaDto:parentId:152200:forlist
+[DEBUG][2014-10-18 13:29:27,521] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:27,533] - get all from redis list --- key eq : tool:areaDto:parentId:340000:forlist
+[DEBUG][2014-10-18 13:29:27,537] - get all from redis list --- key eq : tool:areaDto:parentId:341200:forlist
+[DEBUG][2014-10-18 13:29:27,811] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:27,825] - get all from redis list --- key eq : tool:areaDto:parentId:370000:forlist
+[DEBUG][2014-10-18 13:29:27,829] - get all from redis list --- key eq : tool:areaDto:parentId:371100:forlist
+[DEBUG][2014-10-18 13:29:28,096] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:28,109] - get all from redis list --- key eq : tool:areaDto:parentId:110000:forlist
+[DEBUG][2014-10-18 13:29:28,109] - get all from redis list --- key eq : tool:areaDto:parentId:110100:forlist
+[DEBUG][2014-10-18 13:29:28,380] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:28,391] - get all from redis list --- key eq : tool:areaDto:parentId:130000:forlist
+[DEBUG][2014-10-18 13:29:28,394] - get all from redis list --- key eq : tool:areaDto:parentId:131000:forlist
+[DEBUG][2014-10-18 13:29:28,661] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:28,673] - get all from redis list --- key eq : tool:areaDto:parentId:450000:forlist
+[DEBUG][2014-10-18 13:29:28,677] - get all from redis list --- key eq : tool:areaDto:parentId:450300:forlist
+[DEBUG][2014-10-18 13:29:28,983] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:28,994] - get all from redis list --- key eq : tool:areaDto:parentId:450000:forlist
+[DEBUG][2014-10-18 13:29:28,998] - get all from redis list --- key eq : tool:areaDto:parentId:450800:forlist
+[DEBUG][2014-10-18 13:29:29,295] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:29,306] - get all from redis list --- key eq : tool:areaDto:parentId:210000:forlist
+[DEBUG][2014-10-18 13:29:29,309] - get all from redis list --- key eq : tool:areaDto:parentId:210500:forlist
+[DEBUG][2014-10-18 13:29:29,586] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:29,597] - get all from redis list --- key eq : tool:areaDto:parentId:220000:forlist
+[DEBUG][2014-10-18 13:29:29,599] - get all from redis list --- key eq : tool:areaDto:parentId:220700:forlist
+[DEBUG][2014-10-18 13:29:29,867] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:29,878] - get all from redis list --- key eq : tool:areaDto:parentId:650000:forlist
+[DEBUG][2014-10-18 13:29:29,883] - get all from redis list --- key eq : tool:areaDto:parentId:653000:forlist
+[DEBUG][2014-10-18 13:29:30,144] - put into redis list --- key eq : tool:areaDto:parentId:653000:forlist and value eq AreaDto(id=653001, parentId=653000, name=阿图什市, level=3)
+[DEBUG][2014-10-18 13:29:30,144] - put into redis list --- key eq : tool:areaDto:parentId:653000:forlist and value eq AreaDto(id=653022, parentId=653000, name=阿克陶县, level=3)
+[DEBUG][2014-10-18 13:29:30,145] - put into redis list --- key eq : tool:areaDto:parentId:653000:forlist and value eq AreaDto(id=653023, parentId=653000, name=阿合奇县, level=3)
+[DEBUG][2014-10-18 13:29:30,145] - put into redis list --- key eq : tool:areaDto:parentId:653000:forlist and value eq AreaDto(id=653024, parentId=653000, name=乌恰县, level=3)
+[DEBUG][2014-10-18 13:29:30,416] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:30,426] - get all from redis list --- key eq : tool:areaDto:parentId:340000:forlist
+[DEBUG][2014-10-18 13:29:30,431] - get all from redis list --- key eq : tool:areaDto:parentId:340100:forlist
+[DEBUG][2014-10-18 13:29:30,697] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:30,708] - get all from redis list --- key eq : tool:areaDto:parentId:810000:forlist
+[DEBUG][2014-10-18 13:29:30,967] - get all from redis list --- key eq : tool:areaDto:parentId:810000:forlist
+[DEBUG][2014-10-18 13:29:31,496] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:31,506] - get all from redis list --- key eq : tool:areaDto:parentId:220000:forlist
+[DEBUG][2014-10-18 13:29:31,509] - get all from redis list --- key eq : tool:areaDto:parentId:220500:forlist
+[DEBUG][2014-10-18 13:29:31,780] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:31,789] - get all from redis list --- key eq : tool:areaDto:parentId:430000:forlist
+[DEBUG][2014-10-18 13:29:31,794] - get all from redis list --- key eq : tool:areaDto:parentId:430700:forlist
+[DEBUG][2014-10-18 13:29:32,061] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:32,073] - get all from redis list --- key eq : tool:areaDto:parentId:340000:forlist
+[DEBUG][2014-10-18 13:29:32,079] - get all from redis list --- key eq : tool:areaDto:parentId:340300:forlist
+[DEBUG][2014-10-18 13:29:32,349] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:32,360] - get all from redis list --- key eq : tool:areaDto:parentId:510000:forlist
+[DEBUG][2014-10-18 13:29:32,369] - get all from redis list --- key eq : tool:areaDto:parentId:510800:forlist
+[DEBUG][2014-10-18 13:29:32,635] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:32,644] - get all from redis list --- key eq : tool:areaDto:parentId:230000:forlist
+[DEBUG][2014-10-18 13:29:32,649] - get all from redis list --- key eq : tool:areaDto:parentId:230200:forlist
+[DEBUG][2014-10-18 13:29:32,925] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:32,934] - get all from redis list --- key eq : tool:areaDto:parentId:510000:forlist
+[DEBUG][2014-10-18 13:29:32,939] - get all from redis list --- key eq : tool:areaDto:parentId:511600:forlist
+[DEBUG][2014-10-18 13:29:33,206] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:33,215] - get all from redis list --- key eq : tool:areaDto:parentId:320000:forlist
+[DEBUG][2014-10-18 13:29:33,218] - get all from redis list --- key eq : tool:areaDto:parentId:320500:forlist
+[DEBUG][2014-10-18 13:29:33,483] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:29:33,494] - get all from redis list --- key eq : tool:areaDto:parentId:140000:forlist
+[DEBUG][2014-10-18 13:29:33,496] - get all from redis list --- key eq : tool:areaDto:parentId:140600:forlist
+[INFO ][2014-10-18 13:29:33,653] - Closing org.springframework.web.context.support.GenericWebApplicationContext@13dd5ec: startup date [Sat Oct 18 13:29:10 CST 2014]; root of context hierarchy
+[INFO ][2014-10-18 13:29:33,654] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6af8bdc7: defining beans [placeholderConfig,sellerDao,sellerManageDao,sellerProfileDao,shopDao,sellerConstantsServiceImpl,sellerManageServiceImpl,sellerProfileServiceImpl,sellerServiceImpl,shopServiceImpl,adminAccountDao,rightsCenterDao,userAccountDao,userEvaluateDao,userFavoriteDao,usersDao,userSiteTotalDao,usersSiteDao,adminAccountServiceImpl,rightsCenterServiceImpl,userAccountServiceImpl,userEvaluateServiceImpl,userFavoriteServiceImpl,userSiteTotalServiceImpl,usersServiceImpl,usersSiteServiceImpl,redisKeyResolver,wdRedisDao,simpleSendEmailUtils,addressesDao,addressesViewDao,articleDao,toolsGoodDayDao,toolsNoteDao,toolsWeddingGovDao,areaDtoPump,addressesViewServiceImpl,areaQueryServiceImpl,articleServiceImpl,toolsGoodDayServiceImpl,toolsNoteServiceImpl,toolsWeddingGovServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.wedding.common.util.SpringContextUtil#0,dataSource,transactionManager,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,logDataSource,jdbcTemplate,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jedisPoolConfig,jedisConnectionFactory,org.springframework.data.redis.core.RedisTemplate#0,mailSender,freeMarker,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,adminAccountMapper,rightsCenterMapper,userAccountMapper,userEvaluateMapper,userFavoriteMapper,userSiteMapper,userSiteTotalMapper,usersMapper,sellerManageMapper,sellerMapper,sellerProfileMapper,shopMapper,shopSiteMapper,addressesExMapper,addressesMapper,addressesQueryViewMapper,addressesViewMapper,articleMapper,toolsGoodDayMapper,toolsNoteMapper,toolsWeddingGovMapper]; root of factory hierarchy
+[INFO ][2014-10-18 13:30:47,955] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-seller/target/test-classes/spring-config/applicationContext.xml]
+[INFO ][2014-10-18 13:30:48,361] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-seller/target/test-classes/spring-config/persistence.xml]
+[INFO ][2014-10-18 13:30:48,415] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-seller/target/test-classes/spring-config/redis-persistence.xml]
+[INFO ][2014-10-18 13:30:48,442] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-seller/target/test-classes/spring-config/spring-mail.xml]
+[INFO ][2014-10-18 13:30:48,476] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6f6b99ca: startup date [Sat Oct 18 13:30:48 CST 2014]; root of context hierarchy
+[INFO ][2014-10-18 13:30:48,746] - Loading properties file from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-seller/target/test-classes/dev.properties]
+[INFO ][2014-10-18 13:30:48,811] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6427b56f: defining beans [placeholderConfig,sellerDao,sellerManageDao,sellerProfileDao,shopDao,sellerConstantsServiceImpl,sellerManageServiceImpl,sellerProfileServiceImpl,sellerServiceImpl,shopServiceImpl,adminAccountDao,rightsCenterDao,userAccountDao,userEvaluateDao,userFavoriteDao,usersDao,userSiteTotalDao,usersSiteDao,adminAccountServiceImpl,rightsCenterServiceImpl,userAccountServiceImpl,userEvaluateServiceImpl,userFavoriteServiceImpl,userSiteTotalServiceImpl,usersServiceImpl,usersSiteServiceImpl,redisKeyResolver,wdRedisDao,simpleSendEmailUtils,addressesDao,addressesViewDao,articleDao,toolsGoodDayDao,toolsNoteDao,toolsWeddingGovDao,areaDtoPump,addressesViewServiceImpl,areaQueryServiceImpl,articleServiceImpl,toolsGoodDayServiceImpl,toolsNoteServiceImpl,toolsWeddingGovServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.wedding.common.util.SpringContextUtil#0,dataSource,transactionManager,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,logDataSource,jdbcTemplate,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jedisPoolConfig,jedisConnectionFactory,org.springframework.data.redis.core.RedisTemplate#0,mailSender,freeMarker,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,adminAccountMapper,rightsCenterMapper,userAccountMapper,userEvaluateMapper,userFavoriteMapper,userSiteMapper,userSiteTotalMapper,usersMapper,sellerManageMapper,sellerMapper,sellerProfileMapper,shopMapper,shopSiteMapper,addressesExMapper,addressesMapper,addressesQueryViewMapper,addressesViewMapper,articleMapper,toolsGoodDayMapper,toolsNoteMapper,toolsWeddingGovMapper]; root of factory hierarchy
+[INFO ][2014-10-18 13:30:50,283] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[DEBUG][2014-10-18 13:30:50,405] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:30:50,480] - get all from redis list --- key eq : tool:areaDto:parentId:360000:forlist
+[DEBUG][2014-10-18 13:30:50,485] - get all from redis list --- key eq : tool:areaDto:parentId:360500:forlist
+[DEBUG][2014-10-18 13:30:57,732] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:30:57,749] - get all from redis list --- key eq : tool:areaDto:parentId:340000:forlist
+[DEBUG][2014-10-18 13:30:57,757] - get all from redis list --- key eq : tool:areaDto:parentId:341100:forlist
+[DEBUG][2014-10-18 13:30:58,029] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:30:58,047] - get all from redis list --- key eq : tool:areaDto:parentId:450000:forlist
+[DEBUG][2014-10-18 13:30:58,055] - get all from redis list --- key eq : tool:areaDto:parentId:450700:forlist
+[DEBUG][2014-10-18 13:30:58,324] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:30:58,343] - get all from redis list --- key eq : tool:areaDto:parentId:320000:forlist
+[DEBUG][2014-10-18 13:30:58,350] - get all from redis list --- key eq : tool:areaDto:parentId:321200:forlist
+[DEBUG][2014-10-18 13:30:58,620] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:30:58,637] - get all from redis list --- key eq : tool:areaDto:parentId:220000:forlist
+[DEBUG][2014-10-18 13:30:58,641] - get all from redis list --- key eq : tool:areaDto:parentId:220200:forlist
+[DEBUG][2014-10-18 13:30:58,911] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:30:58,934] - get all from redis list --- key eq : tool:areaDto:parentId:510000:forlist
+[DEBUG][2014-10-18 13:30:58,945] - get all from redis list --- key eq : tool:areaDto:parentId:513200:forlist
+[DEBUG][2014-10-18 13:30:59,221] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:30:59,238] - get all from redis list --- key eq : tool:areaDto:parentId:530000:forlist
+[DEBUG][2014-10-18 13:30:59,245] - get all from redis list --- key eq : tool:areaDto:parentId:530100:forlist
+[DEBUG][2014-10-18 13:30:59,520] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:30:59,536] - get all from redis list --- key eq : tool:areaDto:parentId:530000:forlist
+[DEBUG][2014-10-18 13:30:59,543] - get all from redis list --- key eq : tool:areaDto:parentId:530900:forlist
+[DEBUG][2014-10-18 13:30:59,816] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:30:59,833] - get all from redis list --- key eq : tool:areaDto:parentId:420000:forlist
+[DEBUG][2014-10-18 13:30:59,839] - get all from redis list --- key eq : tool:areaDto:parentId:420200:forlist
+[DEBUG][2014-10-18 13:31:00,108] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:00,124] - get all from redis list --- key eq : tool:areaDto:parentId:220000:forlist
+[DEBUG][2014-10-18 13:31:00,127] - get all from redis list --- key eq : tool:areaDto:parentId:220800:forlist
+[DEBUG][2014-10-18 13:31:00,393] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:00,411] - get all from redis list --- key eq : tool:areaDto:parentId:460000:forlist
+[DEBUG][2014-10-18 13:31:00,412] - get all from redis list --- key eq : tool:areaDto:parentId:460100:forlist
+[DEBUG][2014-10-18 13:31:00,686] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:00,702] - get all from redis list --- key eq : tool:areaDto:parentId:510000:forlist
+[DEBUG][2014-10-18 13:31:00,712] - get all from redis list --- key eq : tool:areaDto:parentId:510100:forlist
+[DEBUG][2014-10-18 13:31:01,029] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:01,048] - get all from redis list --- key eq : tool:areaDto:parentId:140000:forlist
+[DEBUG][2014-10-18 13:31:01,052] - get all from redis list --- key eq : tool:areaDto:parentId:140900:forlist
+[DEBUG][2014-10-18 13:31:01,330] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:01,345] - get all from redis list --- key eq : tool:areaDto:parentId:450000:forlist
+[DEBUG][2014-10-18 13:31:01,351] - get all from redis list --- key eq : tool:areaDto:parentId:451200:forlist
+[DEBUG][2014-10-18 13:31:01,621] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:01,638] - get all from redis list --- key eq : tool:areaDto:parentId:620000:forlist
+[DEBUG][2014-10-18 13:31:01,644] - get all from redis list --- key eq : tool:areaDto:parentId:621000:forlist
+[DEBUG][2014-10-18 13:31:01,930] - put into redis list --- key eq : tool:areaDto:parentId:621000:forlist and value eq AreaDto(id=621001, parentId=621000, name=市辖区, level=3)
+[DEBUG][2014-10-18 13:31:01,931] - put into redis list --- key eq : tool:areaDto:parentId:621000:forlist and value eq AreaDto(id=621002, parentId=621000, name=西峰区, level=3)
+[DEBUG][2014-10-18 13:31:01,932] - put into redis list --- key eq : tool:areaDto:parentId:621000:forlist and value eq AreaDto(id=621021, parentId=621000, name=庆城县, level=3)
+[DEBUG][2014-10-18 13:31:01,933] - put into redis list --- key eq : tool:areaDto:parentId:621000:forlist and value eq AreaDto(id=621022, parentId=621000, name=环县, level=3)
+[DEBUG][2014-10-18 13:31:01,933] - put into redis list --- key eq : tool:areaDto:parentId:621000:forlist and value eq AreaDto(id=621023, parentId=621000, name=华池县, level=3)
+[DEBUG][2014-10-18 13:31:01,934] - put into redis list --- key eq : tool:areaDto:parentId:621000:forlist and value eq AreaDto(id=621024, parentId=621000, name=合水县, level=3)
+[DEBUG][2014-10-18 13:31:01,934] - put into redis list --- key eq : tool:areaDto:parentId:621000:forlist and value eq AreaDto(id=621025, parentId=621000, name=正宁县, level=3)
+[DEBUG][2014-10-18 13:31:01,935] - put into redis list --- key eq : tool:areaDto:parentId:621000:forlist and value eq AreaDto(id=621026, parentId=621000, name=宁县, level=3)
+[DEBUG][2014-10-18 13:31:01,935] - put into redis list --- key eq : tool:areaDto:parentId:621000:forlist and value eq AreaDto(id=621027, parentId=621000, name=镇原县, level=3)
+[DEBUG][2014-10-18 13:31:02,216] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:02,232] - get all from redis list --- key eq : tool:areaDto:parentId:420000:forlist
+[DEBUG][2014-10-18 13:31:02,237] - get all from redis list --- key eq : tool:areaDto:parentId:421300:forlist
+[DEBUG][2014-10-18 13:31:02,508] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:02,524] - get all from redis list --- key eq : tool:areaDto:parentId:640000:forlist
+[DEBUG][2014-10-18 13:31:02,791] - put into redis list --- key eq : tool:areaDto:parentId:640000:forlist and value eq AreaDto(id=640100, parentId=640000, name=银川市, level=2)
+[DEBUG][2014-10-18 13:31:02,792] - put into redis list --- key eq : tool:areaDto:parentId:640000:forlist and value eq AreaDto(id=640200, parentId=640000, name=石嘴山市, level=2)
+[DEBUG][2014-10-18 13:31:02,793] - put into redis list --- key eq : tool:areaDto:parentId:640000:forlist and value eq AreaDto(id=640300, parentId=640000, name=吴忠市, level=2)
+[DEBUG][2014-10-18 13:31:02,794] - put into redis list --- key eq : tool:areaDto:parentId:640000:forlist and value eq AreaDto(id=640400, parentId=640000, name=固原市, level=2)
+[DEBUG][2014-10-18 13:31:02,794] - put into redis list --- key eq : tool:areaDto:parentId:640000:forlist and value eq AreaDto(id=640500, parentId=640000, name=中卫市, level=2)
+[DEBUG][2014-10-18 13:31:02,795] - get all from redis list --- key eq : tool:areaDto:parentId:640300:forlist
+[DEBUG][2014-10-18 13:31:03,058] - put into redis list --- key eq : tool:areaDto:parentId:640300:forlist and value eq AreaDto(id=640301, parentId=640300, name=市辖区, level=3)
+[DEBUG][2014-10-18 13:31:03,059] - put into redis list --- key eq : tool:areaDto:parentId:640300:forlist and value eq AreaDto(id=640302, parentId=640300, name=利通区, level=3)
+[DEBUG][2014-10-18 13:31:03,059] - put into redis list --- key eq : tool:areaDto:parentId:640300:forlist and value eq AreaDto(id=640303, parentId=640300, name=红寺堡区, level=3)
+[DEBUG][2014-10-18 13:31:03,060] - put into redis list --- key eq : tool:areaDto:parentId:640300:forlist and value eq AreaDto(id=640323, parentId=640300, name=盐池县, level=3)
+[DEBUG][2014-10-18 13:31:03,060] - put into redis list --- key eq : tool:areaDto:parentId:640300:forlist and value eq AreaDto(id=640324, parentId=640300, name=同心县, level=3)
+[DEBUG][2014-10-18 13:31:03,061] - put into redis list --- key eq : tool:areaDto:parentId:640300:forlist and value eq AreaDto(id=640381, parentId=640300, name=青铜峡市, level=3)
+[DEBUG][2014-10-18 13:31:03,329] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:03,343] - get all from redis list --- key eq : tool:areaDto:parentId:130000:forlist
+[DEBUG][2014-10-18 13:31:03,347] - get all from redis list --- key eq : tool:areaDto:parentId:130400:forlist
+[DEBUG][2014-10-18 13:31:03,623] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:03,637] - get all from redis list --- key eq : tool:areaDto:parentId:140000:forlist
+[DEBUG][2014-10-18 13:31:03,641] - get all from redis list --- key eq : tool:areaDto:parentId:141000:forlist
+[DEBUG][2014-10-18 13:31:03,915] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:03,927] - get all from redis list --- key eq : tool:areaDto:parentId:460000:forlist
+[DEBUG][2014-10-18 13:31:03,929] - get all from redis list --- key eq : tool:areaDto:parentId:469000:forlist
+[DEBUG][2014-10-18 13:31:04,199] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:04,211] - get all from redis list --- key eq : tool:areaDto:parentId:340000:forlist
+[DEBUG][2014-10-18 13:31:04,216] - get all from redis list --- key eq : tool:areaDto:parentId:340500:forlist
+[DEBUG][2014-10-18 13:31:04,486] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:04,501] - get all from redis list --- key eq : tool:areaDto:parentId:530000:forlist
+[DEBUG][2014-10-18 13:31:04,506] - get all from redis list --- key eq : tool:areaDto:parentId:530400:forlist
+[DEBUG][2014-10-18 13:31:04,776] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:04,789] - get all from redis list --- key eq : tool:areaDto:parentId:820000:forlist
+[DEBUG][2014-10-18 13:31:05,047] - get all from redis list --- key eq : tool:areaDto:parentId:820000:forlist
+[DEBUG][2014-10-18 13:31:05,571] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:05,585] - get all from redis list --- key eq : tool:areaDto:parentId:640000:forlist
+[DEBUG][2014-10-18 13:31:05,586] - get all from redis list --- key eq : tool:areaDto:parentId:640200:forlist
+[DEBUG][2014-10-18 13:31:05,849] - put into redis list --- key eq : tool:areaDto:parentId:640200:forlist and value eq AreaDto(id=640201, parentId=640200, name=市辖区, level=3)
+[DEBUG][2014-10-18 13:31:05,850] - put into redis list --- key eq : tool:areaDto:parentId:640200:forlist and value eq AreaDto(id=640202, parentId=640200, name=大武口区, level=3)
+[DEBUG][2014-10-18 13:31:05,851] - put into redis list --- key eq : tool:areaDto:parentId:640200:forlist and value eq AreaDto(id=640205, parentId=640200, name=惠农区, level=3)
+[DEBUG][2014-10-18 13:31:05,852] - put into redis list --- key eq : tool:areaDto:parentId:640200:forlist and value eq AreaDto(id=640221, parentId=640200, name=平罗县, level=3)
+[DEBUG][2014-10-18 13:31:06,121] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:06,133] - get all from redis list --- key eq : tool:areaDto:parentId:820000:forlist
+[DEBUG][2014-10-18 13:31:06,397] - get all from redis list --- key eq : tool:areaDto:parentId:820000:forlist
+[DEBUG][2014-10-18 13:31:06,927] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:06,940] - get all from redis list --- key eq : tool:areaDto:parentId:530000:forlist
+[DEBUG][2014-10-18 13:31:06,945] - get all from redis list --- key eq : tool:areaDto:parentId:530700:forlist
+[DEBUG][2014-10-18 13:31:07,217] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:07,231] - get all from redis list --- key eq : tool:areaDto:parentId:410000:forlist
+[DEBUG][2014-10-18 13:31:07,237] - get all from redis list --- key eq : tool:areaDto:parentId:411600:forlist
+[DEBUG][2014-10-18 13:31:07,508] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:07,521] - get all from redis list --- key eq : tool:areaDto:parentId:650000:forlist
+[DEBUG][2014-10-18 13:31:07,526] - get all from redis list --- key eq : tool:areaDto:parentId:653000:forlist
+[DEBUG][2014-10-18 13:31:07,798] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:07,810] - get all from redis list --- key eq : tool:areaDto:parentId:120000:forlist
+[DEBUG][2014-10-18 13:31:07,810] - get all from redis list --- key eq : tool:areaDto:parentId:120100:forlist
+[DEBUG][2014-10-18 13:31:08,081] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:08,091] - get all from redis list --- key eq : tool:areaDto:parentId:110000:forlist
+[DEBUG][2014-10-18 13:31:08,092] - get all from redis list --- key eq : tool:areaDto:parentId:110100:forlist
+[DEBUG][2014-10-18 13:31:08,370] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:08,382] - get all from redis list --- key eq : tool:areaDto:parentId:210000:forlist
+[DEBUG][2014-10-18 13:31:08,387] - get all from redis list --- key eq : tool:areaDto:parentId:210300:forlist
+[DEBUG][2014-10-18 13:31:08,657] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:08,670] - get all from redis list --- key eq : tool:areaDto:parentId:430000:forlist
+[DEBUG][2014-10-18 13:31:08,674] - get all from redis list --- key eq : tool:areaDto:parentId:430300:forlist
+[DEBUG][2014-10-18 13:31:08,943] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:08,955] - get all from redis list --- key eq : tool:areaDto:parentId:230000:forlist
+[DEBUG][2014-10-18 13:31:08,959] - get all from redis list --- key eq : tool:areaDto:parentId:231200:forlist
+[DEBUG][2014-10-18 13:31:09,228] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:09,241] - get all from redis list --- key eq : tool:areaDto:parentId:350000:forlist
+[DEBUG][2014-10-18 13:31:09,244] - get all from redis list --- key eq : tool:areaDto:parentId:350200:forlist
+[DEBUG][2014-10-18 13:31:09,511] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:09,523] - get all from redis list --- key eq : tool:areaDto:parentId:140000:forlist
+[DEBUG][2014-10-18 13:31:09,526] - get all from redis list --- key eq : tool:areaDto:parentId:141100:forlist
+[DEBUG][2014-10-18 13:31:09,794] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:09,808] - get all from redis list --- key eq : tool:areaDto:parentId:640000:forlist
+[DEBUG][2014-10-18 13:31:09,810] - get all from redis list --- key eq : tool:areaDto:parentId:640200:forlist
+[DEBUG][2014-10-18 13:31:10,074] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:10,086] - get all from redis list --- key eq : tool:areaDto:parentId:210000:forlist
+[DEBUG][2014-10-18 13:31:10,091] - get all from redis list --- key eq : tool:areaDto:parentId:210400:forlist
+[DEBUG][2014-10-18 13:31:10,367] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:10,380] - get all from redis list --- key eq : tool:areaDto:parentId:120000:forlist
+[DEBUG][2014-10-18 13:31:10,380] - get all from redis list --- key eq : tool:areaDto:parentId:120100:forlist
+[DEBUG][2014-10-18 13:31:10,650] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:10,663] - get all from redis list --- key eq : tool:areaDto:parentId:110000:forlist
+[DEBUG][2014-10-18 13:31:10,663] - get all from redis list --- key eq : tool:areaDto:parentId:110100:forlist
+[DEBUG][2014-10-18 13:31:10,935] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:10,946] - get all from redis list --- key eq : tool:areaDto:parentId:320000:forlist
+[DEBUG][2014-10-18 13:31:10,950] - get all from redis list --- key eq : tool:areaDto:parentId:321100:forlist
+[DEBUG][2014-10-18 13:31:11,219] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:11,231] - get all from redis list --- key eq : tool:areaDto:parentId:410000:forlist
+[DEBUG][2014-10-18 13:31:11,235] - get all from redis list --- key eq : tool:areaDto:parentId:410400:forlist
+[DEBUG][2014-10-18 13:31:11,508] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:11,519] - get all from redis list --- key eq : tool:areaDto:parentId:420000:forlist
+[DEBUG][2014-10-18 13:31:11,527] - get all from redis list --- key eq : tool:areaDto:parentId:420900:forlist
+[DEBUG][2014-10-18 13:31:11,801] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:11,812] - get all from redis list --- key eq : tool:areaDto:parentId:120000:forlist
+[DEBUG][2014-10-18 13:31:11,812] - get all from redis list --- key eq : tool:areaDto:parentId:120100:forlist
+[DEBUG][2014-10-18 13:31:12,085] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:12,097] - get all from redis list --- key eq : tool:areaDto:parentId:130000:forlist
+[DEBUG][2014-10-18 13:31:12,101] - get all from redis list --- key eq : tool:areaDto:parentId:130600:forlist
+[DEBUG][2014-10-18 13:31:12,372] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:12,382] - get all from redis list --- key eq : tool:areaDto:parentId:210000:forlist
+[DEBUG][2014-10-18 13:31:12,386] - get all from redis list --- key eq : tool:areaDto:parentId:211000:forlist
+[DEBUG][2014-10-18 13:31:12,657] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:12,671] - get all from redis list --- key eq : tool:areaDto:parentId:440300:forlist
+[DEBUG][2014-10-18 13:31:12,672] - get all from redis list --- key eq : tool:areaDto:parentId:440301:forlist
+[DEBUG][2014-10-18 13:31:12,940] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:12,950] - get all from redis list --- key eq : tool:areaDto:parentId:620000:forlist
+[DEBUG][2014-10-18 13:31:12,954] - get all from redis list --- key eq : tool:areaDto:parentId:623000:forlist
+[DEBUG][2014-10-18 13:31:13,216] - put into redis list --- key eq : tool:areaDto:parentId:623000:forlist and value eq AreaDto(id=623001, parentId=623000, name=合作市, level=3)
+[DEBUG][2014-10-18 13:31:13,217] - put into redis list --- key eq : tool:areaDto:parentId:623000:forlist and value eq AreaDto(id=623021, parentId=623000, name=临潭县, level=3)
+[DEBUG][2014-10-18 13:31:13,217] - put into redis list --- key eq : tool:areaDto:parentId:623000:forlist and value eq AreaDto(id=623022, parentId=623000, name=卓尼县, level=3)
+[DEBUG][2014-10-18 13:31:13,218] - put into redis list --- key eq : tool:areaDto:parentId:623000:forlist and value eq AreaDto(id=623023, parentId=623000, name=舟曲县, level=3)
+[DEBUG][2014-10-18 13:31:13,218] - put into redis list --- key eq : tool:areaDto:parentId:623000:forlist and value eq AreaDto(id=623024, parentId=623000, name=迭部县, level=3)
+[DEBUG][2014-10-18 13:31:13,219] - put into redis list --- key eq : tool:areaDto:parentId:623000:forlist and value eq AreaDto(id=623025, parentId=623000, name=玛曲县, level=3)
+[DEBUG][2014-10-18 13:31:13,219] - put into redis list --- key eq : tool:areaDto:parentId:623000:forlist and value eq AreaDto(id=623026, parentId=623000, name=碌曲县, level=3)
+[DEBUG][2014-10-18 13:31:13,220] - put into redis list --- key eq : tool:areaDto:parentId:623000:forlist and value eq AreaDto(id=623027, parentId=623000, name=夏河县, level=3)
+[DEBUG][2014-10-18 13:31:13,493] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:13,503] - get all from redis list --- key eq : tool:areaDto:parentId:230000:forlist
+[DEBUG][2014-10-18 13:31:13,507] - get all from redis list --- key eq : tool:areaDto:parentId:230500:forlist
+[DEBUG][2014-10-18 13:31:13,774] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 13:31:13,786] - get all from redis list --- key eq : tool:areaDto:parentId:460000:forlist
+[DEBUG][2014-10-18 13:31:13,787] - get all from redis list --- key eq : tool:areaDto:parentId:460200:forlist
+[INFO ][2014-10-18 13:31:13,794] - Closing org.springframework.web.context.support.GenericWebApplicationContext@6f6b99ca: startup date [Sat Oct 18 13:30:48 CST 2014]; root of context hierarchy
+[INFO ][2014-10-18 13:31:13,796] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6427b56f: defining beans [placeholderConfig,sellerDao,sellerManageDao,sellerProfileDao,shopDao,sellerConstantsServiceImpl,sellerManageServiceImpl,sellerProfileServiceImpl,sellerServiceImpl,shopServiceImpl,adminAccountDao,rightsCenterDao,userAccountDao,userEvaluateDao,userFavoriteDao,usersDao,userSiteTotalDao,usersSiteDao,adminAccountServiceImpl,rightsCenterServiceImpl,userAccountServiceImpl,userEvaluateServiceImpl,userFavoriteServiceImpl,userSiteTotalServiceImpl,usersServiceImpl,usersSiteServiceImpl,redisKeyResolver,wdRedisDao,simpleSendEmailUtils,addressesDao,addressesViewDao,articleDao,toolsGoodDayDao,toolsNoteDao,toolsWeddingGovDao,areaDtoPump,addressesViewServiceImpl,areaQueryServiceImpl,articleServiceImpl,toolsGoodDayServiceImpl,toolsNoteServiceImpl,toolsWeddingGovServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.wedding.common.util.SpringContextUtil#0,dataSource,transactionManager,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,logDataSource,jdbcTemplate,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jedisPoolConfig,jedisConnectionFactory,org.springframework.data.redis.core.RedisTemplate#0,mailSender,freeMarker,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,adminAccountMapper,rightsCenterMapper,userAccountMapper,userEvaluateMapper,userFavoriteMapper,userSiteMapper,userSiteTotalMapper,usersMapper,sellerManageMapper,sellerMapper,sellerProfileMapper,shopMapper,shopSiteMapper,addressesExMapper,addressesMapper,addressesQueryViewMapper,addressesViewMapper,articleMapper,toolsGoodDayMapper,toolsNoteMapper,toolsWeddingGovMapper]; root of factory hierarchy
+[INFO ][2014-10-18 14:53:13,702] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-seller/target/test-classes/spring-config/applicationContext.xml]
+[INFO ][2014-10-18 14:53:14,126] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-seller/target/test-classes/spring-config/persistence.xml]
+[INFO ][2014-10-18 14:53:14,186] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-seller/target/test-classes/spring-config/redis-persistence.xml]
+[INFO ][2014-10-18 14:53:14,221] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-seller/target/test-classes/spring-config/spring-mail.xml]
+[INFO ][2014-10-18 14:53:14,257] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2a77997: startup date [Sat Oct 18 14:53:14 CST 2014]; root of context hierarchy
+[INFO ][2014-10-18 14:53:14,541] - Loading properties file from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-seller/target/test-classes/dev.properties]
+[INFO ][2014-10-18 14:53:14,647] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3195df2f: defining beans [placeholderConfig,sellerDao,sellerManageDao,sellerProfileDao,shopDao,sellerConstantsServiceImpl,sellerManageServiceImpl,sellerProfileServiceImpl,sellerServiceImpl,shopServiceImpl,adminAccountDao,rightsCenterDao,userAccountDao,userEvaluateDao,userFavoriteDao,usersDao,userSiteTotalDao,usersSiteDao,adminAccountServiceImpl,rightsCenterServiceImpl,userAccountServiceImpl,userEvaluateServiceImpl,userFavoriteServiceImpl,userSiteTotalServiceImpl,usersServiceImpl,usersSiteServiceImpl,redisKeyResolver,wdRedisDao,simpleSendEmailUtils,addressesDao,addressesViewDao,articleDao,toolsGoodDayDao,toolsNoteDao,toolsWeddingGovDao,areaDtoPump,addressesViewServiceImpl,areaQueryServiceImpl,articleServiceImpl,toolsGoodDayServiceImpl,toolsNoteServiceImpl,toolsWeddingGovServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.wedding.common.util.SpringContextUtil#0,dataSource,transactionManager,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,logDataSource,jdbcTemplate,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jedisPoolConfig,jedisConnectionFactory,org.springframework.data.redis.core.RedisTemplate#0,mailSender,freeMarker,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,adminAccountMapper,rightsCenterMapper,userAccountMapper,userEvaluateMapper,userFavoriteMapper,userSiteMapper,userSiteTotalMapper,usersMapper,sellerManageMapper,sellerMapper,sellerProfileMapper,shopMapper,shopSiteMapper,addressesExMapper,addressesMapper,addressesQueryViewMapper,addressesViewMapper,articleMapper,toolsGoodDayMapper,toolsNoteMapper,toolsWeddingGovMapper]; root of factory hierarchy
+[INFO ][2014-10-18 14:54:02,967] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-seller/target/test-classes/spring-config/applicationContext.xml]
+[INFO ][2014-10-18 14:54:03,363] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-seller/target/test-classes/spring-config/persistence.xml]
+[INFO ][2014-10-18 14:54:03,427] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-seller/target/test-classes/spring-config/redis-persistence.xml]
+[INFO ][2014-10-18 14:54:03,453] - Loading XML bean definitions from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-seller/target/test-classes/spring-config/spring-mail.xml]
+[INFO ][2014-10-18 14:54:03,485] - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@411fa9dd: startup date [Sat Oct 18 14:54:03 CST 2014]; root of context hierarchy
+[INFO ][2014-10-18 14:54:03,753] - Loading properties file from URL [file:/Users/rkzhang/Documents/widding_workspace/wedding/wedding-seller/target/test-classes/dev.properties]
+[INFO ][2014-10-18 14:54:03,821] - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2a777a8b: defining beans [placeholderConfig,sellerDao,sellerManageDao,sellerProfileDao,shopDao,sellerConstantsServiceImpl,sellerManageServiceImpl,sellerProfileServiceImpl,sellerServiceImpl,shopServiceImpl,adminAccountDao,rightsCenterDao,userAccountDao,userEvaluateDao,userFavoriteDao,usersDao,userSiteTotalDao,usersSiteDao,adminAccountServiceImpl,rightsCenterServiceImpl,userAccountServiceImpl,userEvaluateServiceImpl,userFavoriteServiceImpl,userSiteTotalServiceImpl,usersServiceImpl,usersSiteServiceImpl,redisKeyResolver,wdRedisDao,simpleSendEmailUtils,addressesDao,addressesViewDao,articleDao,toolsGoodDayDao,toolsNoteDao,toolsWeddingGovDao,areaDtoPump,addressesViewServiceImpl,areaQueryServiceImpl,articleServiceImpl,toolsGoodDayServiceImpl,toolsNoteServiceImpl,toolsWeddingGovServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.wedding.common.util.SpringContextUtil#0,dataSource,transactionManager,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,logDataSource,jdbcTemplate,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jedisPoolConfig,jedisConnectionFactory,org.springframework.data.redis.core.RedisTemplate#0,mailSender,freeMarker,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,adminAccountMapper,rightsCenterMapper,userAccountMapper,userEvaluateMapper,userFavoriteMapper,userSiteMapper,userSiteTotalMapper,usersMapper,sellerManageMapper,sellerMapper,sellerProfileMapper,shopMapper,shopSiteMapper,addressesExMapper,addressesMapper,addressesQueryViewMapper,addressesViewMapper,articleMapper,toolsGoodDayMapper,toolsNoteMapper,toolsWeddingGovMapper]; root of factory hierarchy
+[INFO ][2014-10-18 14:54:05,314] - ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[DEBUG][2014-10-18 14:54:05,434] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 14:54:09,754] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=110000, parentId=1, name=北京市, level=1)
+[DEBUG][2014-10-18 14:54:09,757] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=120000, parentId=1, name=天津市, level=1)
+[DEBUG][2014-10-18 14:54:09,758] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=130000, parentId=1, name=河北省, level=1)
+[DEBUG][2014-10-18 14:54:09,759] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=140000, parentId=1, name=山西省, level=1)
+[DEBUG][2014-10-18 14:54:09,759] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=150000, parentId=1, name=内蒙古自治区, level=1)
+[DEBUG][2014-10-18 14:54:09,760] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=210000, parentId=1, name=辽宁省, level=1)
+[DEBUG][2014-10-18 14:54:09,760] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=220000, parentId=1, name=吉林省, level=1)
+[DEBUG][2014-10-18 14:54:09,761] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=230000, parentId=1, name=黑龙江省, level=1)
+[DEBUG][2014-10-18 14:54:09,761] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=310000, parentId=1, name=上海市, level=1)
+[DEBUG][2014-10-18 14:54:09,762] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=320000, parentId=1, name=江苏省, level=1)
+[DEBUG][2014-10-18 14:54:09,762] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=330000, parentId=1, name=浙江省, level=1)
+[DEBUG][2014-10-18 14:54:09,763] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=340000, parentId=1, name=安徽省, level=1)
+[DEBUG][2014-10-18 14:54:09,763] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=350000, parentId=1, name=福建省, level=1)
+[DEBUG][2014-10-18 14:54:09,764] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=360000, parentId=1, name=江西省, level=1)
+[DEBUG][2014-10-18 14:54:09,764] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=370000, parentId=1, name=山东省, level=1)
+[DEBUG][2014-10-18 14:54:09,765] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=410000, parentId=1, name=河南省, level=1)
+[DEBUG][2014-10-18 14:54:09,765] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=420000, parentId=1, name=湖北省, level=1)
+[DEBUG][2014-10-18 14:54:09,766] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=430000, parentId=1, name=湖南省, level=1)
+[DEBUG][2014-10-18 14:54:09,766] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=440000, parentId=1, name=广东省, level=1)
+[DEBUG][2014-10-18 14:54:09,767] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=440300, parentId=1, name=深圳市, level=1)
+[DEBUG][2014-10-18 14:54:09,767] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=450000, parentId=1, name=广西壮族自治区, level=1)
+[DEBUG][2014-10-18 14:54:09,767] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=460000, parentId=1, name=海南省, level=1)
+[DEBUG][2014-10-18 14:54:09,768] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=500000, parentId=1, name=重庆市, level=1)
+[DEBUG][2014-10-18 14:54:09,768] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=510000, parentId=1, name=四川省, level=1)
+[DEBUG][2014-10-18 14:54:09,769] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=520000, parentId=1, name=贵州省, level=1)
+[DEBUG][2014-10-18 14:54:09,769] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=530000, parentId=1, name=云南省, level=1)
+[DEBUG][2014-10-18 14:54:09,769] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=540000, parentId=1, name=西藏自治区, level=1)
+[DEBUG][2014-10-18 14:54:09,770] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=610000, parentId=1, name=陕西省, level=1)
+[DEBUG][2014-10-18 14:54:09,770] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=620000, parentId=1, name=甘肃省, level=1)
+[DEBUG][2014-10-18 14:54:09,771] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=630000, parentId=1, name=青海省, level=1)
+[DEBUG][2014-10-18 14:54:09,771] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=640000, parentId=1, name=宁夏回族自治区, level=1)
+[DEBUG][2014-10-18 14:54:09,772] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=650000, parentId=1, name=新疆维吾尔自治区, level=1)
+[DEBUG][2014-10-18 14:54:09,772] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=710000, parentId=1, name=台湾省, level=1)
+[DEBUG][2014-10-18 14:54:09,773] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=810000, parentId=1, name=香港特别行政区, level=1)
+[DEBUG][2014-10-18 14:54:09,773] - put into redis list --- key eq : tool:areaDto:parentId:1:forlist and value eq AreaDto(id=820000, parentId=1, name=澳门特别行政区, level=1)
+[DEBUG][2014-10-18 14:54:09,774] - get all from redis list --- key eq : tool:areaDto:parentId:650000:forlist
+[DEBUG][2014-10-18 14:54:10,052] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=650100, parentId=650000, name=乌鲁木齐市, level=2)
+[DEBUG][2014-10-18 14:54:10,053] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=650200, parentId=650000, name=克拉玛依市, level=2)
+[DEBUG][2014-10-18 14:54:10,053] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=652100, parentId=650000, name=吐鲁番地区, level=2)
+[DEBUG][2014-10-18 14:54:10,054] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=652200, parentId=650000, name=哈密地区, level=2)
+[DEBUG][2014-10-18 14:54:10,054] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=652300, parentId=650000, name=昌吉回族自治州, level=2)
+[DEBUG][2014-10-18 14:54:10,055] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=652700, parentId=650000, name=博尔塔拉蒙古自治州, level=2)
+[DEBUG][2014-10-18 14:54:10,055] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=652800, parentId=650000, name=巴音郭楞蒙古自治州, level=2)
+[DEBUG][2014-10-18 14:54:10,056] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=652900, parentId=650000, name=阿克苏地区, level=2)
+[DEBUG][2014-10-18 14:54:10,056] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=653000, parentId=650000, name=克孜勒苏柯尔克孜自治州, level=2)
+[DEBUG][2014-10-18 14:54:10,056] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=653100, parentId=650000, name=喀什地区, level=2)
+[DEBUG][2014-10-18 14:54:10,057] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=653200, parentId=650000, name=和田地区, level=2)
+[DEBUG][2014-10-18 14:54:10,057] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=654000, parentId=650000, name=伊犁哈萨克自治州, level=2)
+[DEBUG][2014-10-18 14:54:10,058] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=654200, parentId=650000, name=塔城地区, level=2)
+[DEBUG][2014-10-18 14:54:10,058] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=654300, parentId=650000, name=阿勒泰地区, level=2)
+[DEBUG][2014-10-18 14:54:10,058] - put into redis list --- key eq : tool:areaDto:parentId:650000:forlist and value eq AreaDto(id=659000, parentId=650000, name=自治区直辖县级行政区划, level=2)
+[DEBUG][2014-10-18 14:54:10,059] - get all from redis list --- key eq : tool:areaDto:parentId:650200:forlist
+[DEBUG][2014-10-18 14:54:10,333] - put into redis list --- key eq : tool:areaDto:parentId:650200:forlist and value eq AreaDto(id=650201, parentId=650200, name=市辖区, level=3)
+[DEBUG][2014-10-18 14:54:10,333] - put into redis list --- key eq : tool:areaDto:parentId:650200:forlist and value eq AreaDto(id=650202, parentId=650200, name=独山子区, level=3)
+[DEBUG][2014-10-18 14:54:10,334] - put into redis list --- key eq : tool:areaDto:parentId:650200:forlist and value eq AreaDto(id=650203, parentId=650200, name=克拉玛依区, level=3)
+[DEBUG][2014-10-18 14:54:10,334] - put into redis list --- key eq : tool:areaDto:parentId:650200:forlist and value eq AreaDto(id=650204, parentId=650200, name=白碱滩区, level=3)
+[DEBUG][2014-10-18 14:54:10,335] - put into redis list --- key eq : tool:areaDto:parentId:650200:forlist and value eq AreaDto(id=650205, parentId=650200, name=乌尔禾区, level=3)
+[DEBUG][2014-10-18 14:54:10,624] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 14:54:10,646] - get all from redis list --- key eq : tool:areaDto:parentId:230000:forlist
+[DEBUG][2014-10-18 14:54:10,921] - put into redis list --- key eq : tool:areaDto:parentId:230000:forlist and value eq AreaDto(id=230100, parentId=230000, name=哈尔滨市, level=2)
+[DEBUG][2014-10-18 14:54:10,922] - put into redis list --- key eq : tool:areaDto:parentId:230000:forlist and value eq AreaDto(id=230200, parentId=230000, name=齐齐哈尔市, level=2)
+[DEBUG][2014-10-18 14:54:10,922] - put into redis list --- key eq : tool:areaDto:parentId:230000:forlist and value eq AreaDto(id=230300, parentId=230000, name=鸡西市, level=2)
+[DEBUG][2014-10-18 14:54:10,923] - put into redis list --- key eq : tool:areaDto:parentId:230000:forlist and value eq AreaDto(id=230400, parentId=230000, name=鹤岗市, level=2)
+[DEBUG][2014-10-18 14:54:10,924] - put into redis list --- key eq : tool:areaDto:parentId:230000:forlist and value eq AreaDto(id=230500, parentId=230000, name=双鸭山市, level=2)
+[DEBUG][2014-10-18 14:54:10,924] - put into redis list --- key eq : tool:areaDto:parentId:230000:forlist and value eq AreaDto(id=230600, parentId=230000, name=大庆市, level=2)
+[DEBUG][2014-10-18 14:54:10,925] - put into redis list --- key eq : tool:areaDto:parentId:230000:forlist and value eq AreaDto(id=230700, parentId=230000, name=伊春市, level=2)
+[DEBUG][2014-10-18 14:54:10,925] - put into redis list --- key eq : tool:areaDto:parentId:230000:forlist and value eq AreaDto(id=230800, parentId=230000, name=佳木斯市, level=2)
+[DEBUG][2014-10-18 14:54:10,926] - put into redis list --- key eq : tool:areaDto:parentId:230000:forlist and value eq AreaDto(id=230900, parentId=230000, name=七台河市, level=2)
+[DEBUG][2014-10-18 14:54:10,926] - put into redis list --- key eq : tool:areaDto:parentId:230000:forlist and value eq AreaDto(id=231000, parentId=230000, name=牡丹江市, level=2)
+[DEBUG][2014-10-18 14:54:10,927] - put into redis list --- key eq : tool:areaDto:parentId:230000:forlist and value eq AreaDto(id=231100, parentId=230000, name=黑河市, level=2)
+[DEBUG][2014-10-18 14:54:10,927] - put into redis list --- key eq : tool:areaDto:parentId:230000:forlist and value eq AreaDto(id=231200, parentId=230000, name=绥化市, level=2)
+[DEBUG][2014-10-18 14:54:10,928] - put into redis list --- key eq : tool:areaDto:parentId:230000:forlist and value eq AreaDto(id=232700, parentId=230000, name=大兴安岭地区, level=2)
+[DEBUG][2014-10-18 14:54:10,928] - get all from redis list --- key eq : tool:areaDto:parentId:230900:forlist
+[DEBUG][2014-10-18 14:54:11,196] - put into redis list --- key eq : tool:areaDto:parentId:230900:forlist and value eq AreaDto(id=230901, parentId=230900, name=市辖区, level=3)
+[DEBUG][2014-10-18 14:54:11,196] - put into redis list --- key eq : tool:areaDto:parentId:230900:forlist and value eq AreaDto(id=230902, parentId=230900, name=新兴区, level=3)
+[DEBUG][2014-10-18 14:54:11,197] - put into redis list --- key eq : tool:areaDto:parentId:230900:forlist and value eq AreaDto(id=230903, parentId=230900, name=桃山区, level=3)
+[DEBUG][2014-10-18 14:54:11,197] - put into redis list --- key eq : tool:areaDto:parentId:230900:forlist and value eq AreaDto(id=230904, parentId=230900, name=茄子河区, level=3)
+[DEBUG][2014-10-18 14:54:11,198] - put into redis list --- key eq : tool:areaDto:parentId:230900:forlist and value eq AreaDto(id=230921, parentId=230900, name=勃利县, level=3)
+[DEBUG][2014-10-18 14:54:11,472] - get all from redis list --- key eq : tool:areaDto:parentId:1:forlist
+[DEBUG][2014-10-18 14:54:11,487] - get all from redis list --- key eq : tool:areaDto:parentId:330000:forlist
+[INFO ][2014-10-18 14:54:11,852] - Closing org.springframework.web.context.support.GenericWebApplicationContext@411fa9dd: startup date [Sat Oct 18 14:54:03 CST 2014]; root of context hierarchy
+[INFO ][2014-10-18 14:54:11,853] - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2a777a8b: defining beans [placeholderConfig,sellerDao,sellerManageDao,sellerProfileDao,shopDao,sellerConstantsServiceImpl,sellerManageServiceImpl,sellerProfileServiceImpl,sellerServiceImpl,shopServiceImpl,adminAccountDao,rightsCenterDao,userAccountDao,userEvaluateDao,userFavoriteDao,usersDao,userSiteTotalDao,usersSiteDao,adminAccountServiceImpl,rightsCenterServiceImpl,userAccountServiceImpl,userEvaluateServiceImpl,userFavoriteServiceImpl,userSiteTotalServiceImpl,usersServiceImpl,usersSiteServiceImpl,redisKeyResolver,wdRedisDao,simpleSendEmailUtils,addressesDao,addressesViewDao,articleDao,toolsGoodDayDao,toolsNoteDao,toolsWeddingGovDao,areaDtoPump,addressesViewServiceImpl,areaQueryServiceImpl,articleServiceImpl,toolsGoodDayServiceImpl,toolsNoteServiceImpl,toolsWeddingGovServiceImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,com.wedding.common.util.SpringContextUtil#0,dataSource,transactionManager,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,logDataSource,jdbcTemplate,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,jedisPoolConfig,jedisConnectionFactory,org.springframework.data.redis.core.RedisTemplate#0,mailSender,freeMarker,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,adminAccountMapper,rightsCenterMapper,userAccountMapper,userEvaluateMapper,userFavoriteMapper,userSiteMapper,userSiteTotalMapper,usersMapper,sellerManageMapper,sellerMapper,sellerProfileMapper,shopMapper,shopSiteMapper,addressesExMapper,addressesMapper,addressesQueryViewMapper,addressesViewMapper,articleMapper,toolsGoodDayMapper,toolsNoteMapper,toolsWeddingGovMapper]; root of factory hierarchy
